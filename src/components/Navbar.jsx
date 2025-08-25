@@ -49,15 +49,17 @@ const Navbar = () => {
 
         <div className="searchAndSignin flex justify-center items-center gap-1 ">
 
-          <span className='p-1 px-2  hover:bg-blue-500 border-2 border-blue-500 hover:text-white text-blue-500  text-2xl cursor-pointer rounded  text justify-center items-center sm:hidden' onClick={() => {
+          <span className='p-1 px-2  hover:bg-blue-500 active:bg-blue-500 border-2 border-blue-500 hover:text-white text-blue-500  text-2xl cursor-pointer rounded  text justify-center items-center sm:hidden' onClick={() => {
             setToggleMenu(!toggleMenu)
            {toggleSearch ? setToggleSearch(!toggleSearch) :setToggleSearch(toggleSearch)}
 
           }}>{toggleMenu ? <FaLinesLeaning /> : <IoReorderThreeSharp />}</span>
-          <span className='p-1 px-2  hover:bg-blue-500 border-2 border-blue-500 hover:text-white text-blue-500  text-2xl  cursor-pointer rounded  text justify-center items-center sm:hidden' onClick={() => {
+
+          <span className='p-1 px-2  hover:bg-blue-500 active:bg-blue-500 border-2 border-blue-500 hover:text-white text-blue-500  text-2xl  cursor-pointer rounded  text justify-center items-center sm:hidden' onClick={() => {
              {toggleMenu ? setToggleMenu(!toggleMenu) :setToggleMenu(toggleMenu)}
             setToggleSearch(!toggleSearch)
           }}>{toggleSearch?<LuSearchX />:<FcSearch /> }</span>
+
           <span className='p-1 sm:px-2 lg:px-5 hover:bg-blue-500 border-2 border-blue-500 hover:text-white text-blue-500  sm:text-base lg:text-xl cursor-pointer rounded  text justify-center items-center'>Sign in</span>
         </div>
       </nav>
