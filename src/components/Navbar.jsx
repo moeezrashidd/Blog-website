@@ -13,10 +13,7 @@ const Navbar = () => {
   return (
     <>
       <nav className='flex justify-between items-center py-4 '>
-        <div className="name flex justify-center items-center gap-4">
-          <img src={logo} alt="logo" className='lg:w-14 sm:w-12 w-10 cursor-pointer rounded-full border-2 hover:border-blue-500' />
-          <span className=' lg:text-2xl xl:3xl text-xl font-semibold cursor-pointer'>MR-Blog</span>
-        </div>
+   
 
 
 
