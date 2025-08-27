@@ -84,13 +84,13 @@ const Navbar = () => {
           ))}
         </motion.div>)}
 
-      {toggleSearch && (<motion.div className="search flex justify-center items-center w-full h-1/2 border-2 z-50 hover:border-blue-500 rounded-3xl sm:hidden"
+      {toggleSearch && (<motion.div className="search flex justify-center items-center w-[93%] border-2 z-50 hover:border-blue-500 rounded-3xl sm:hidden absolute"
         initial={{ opacity: 0, y: -44 }}
         animate={{ opacity: 1, y: 0 }}
         exit={{ opacity: 0, y: -20 }}
         transition={{ duration: 0.3 }}>
         <input type="text" placeholder='search' className='w-full pl-5 py-2 rounded-l-3xl outline-none ' />
-        <span className='px-4 py-2 cursor-pointer rounded-r-3xl bg-white'><FcSearch /></span>
+        <span className='px-4 py-3 cursor-pointer rounded-r-3xl bg-white'><FcSearch /></span>
       </motion.div>)}
     </>
   )

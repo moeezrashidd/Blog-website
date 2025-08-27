@@ -1,18 +1,66 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
+import { tech } from '../assets'
+import { sliderData } from '../data/data'
 
+import { FcNext, FcPrevious } from "react-icons/fc";
 const Hero = () => {
+    const [Current, setCurrent] = useState(0)
+    const length = sliderData.length
+
+    useEffect(() => {
+        const timer = setInterval(() => {
+            setCurrent((prev) => (prev === length - 1 ? 0 : prev + 1));
+        }, 5000);
+        return () => clearInterval(timer);
+    }, [length]);
+    const handleNext = () => {
+        setCurrent((pre)=>(
+            pre ===length-1 ? 0 : pre +1
+        ))
+
+
+    }
+    const handlePrevious = () => {
+        setCurrent((pre)=>(
+            pre === 0 ? length-1 : pre - 1
+        ))
+
+
+    }
+
     return (
-        <section className="flex flex-col justify-center items-center text-center h-screen bg-gradient-to-r from-blue-500 via-indigo-600 to-purple-600 text-white px-4">
-            <motion.h2 initial={{ opacity: 0, y: -20 }} animate={{ opacity: 1, y: 0 }} className="text-5xl md:text-6xl font-bold mb-4">
-                Welcome to My Blog
-            </motion.h2>
-            <p className="max-w-2xl text-lg md:text-xl mb-6">
-                Discover unique stories, tutorials, and insights from around the world.
-            </p>
-            <Button className="bg-white text-indigo-600 font-semibold rounded-full px-8 py-3 shadow-lg hover:scale-105 transition">
-                Explore Posts
-            </Button>
-        </section>
+        <div className='Slider relative w-full h-[80vh]  border overflow-hidden flex justify-center items-center '>
+            {sliderData.map((item, index) => {
+
+                return <div
+                    className={`slide w-full h-full bg-cover bg-center absolute transition-opacity duration-700 ease-in-out ${index === Current ? "opacity-100 z-10" : "opacity-0 z-0"}`}
+                    style={{ backgroundImage: `url(${item.img})` }}
+                    key={index}
+                >
+                    <div className="text  w-full h-full  sm:w-[45%] flex flex-col justify-evenly sm:items-start items-center px-14 sm:pr-0">
+
+                        <h1 className='text-white sm:text-5xl lg:text-6xl text-4xl font-bold  text-center sm:text-left'>{item.title}</h1>
+                        <p className='text-white text-xl text-center sm:text-left '>{item.desc}</p>
+                        <span className='bg-blue-500 text-white text-2xl border-2 border-blue-500 hover:border-white w-36 py-1 flex justify-center items-center cursor-pointer rounded-lg '>Read Posts</span>
+                    </div>
+                </div>
+            })}
+
+
+            <div className="controlls z-50 flex justify-between w-full ">
+                <div className="previous text-5xl font-extrabold hover:bg-[#00000080] rounded-full flex justify-center items-center py-3" onClick={handlePrevious}><FcPrevious /></div>
+                <div className="next text-5xl font-extrabold hover:bg-[#00000080] rounded-full flex justify-center items-center py-3" onClick={handleNext}><FcNext /></div>
+            </div>
+
+
+            <div className="dots z-40 absolute bottom-0 flex gap-2 mb-4 justify-center items-center">
+                {sliderData.map(( element ,index)=>{
+                    return <div className={`dot  rounded-full cursor-pointer ${index === Current ? "bg-blue-500 sm:w-5 sm:h-5 w-3 h-3" : "bg-gray-100 sm:w-4 sm:h-4 w-2 h-2"}`} ></div>
+                })}
+            </div>
+        </div>
+
+
     )
 }
 
