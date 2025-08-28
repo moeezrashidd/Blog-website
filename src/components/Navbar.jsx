@@ -31,7 +31,7 @@ const Navbar = () => {
 
           <div className="menu flex justify-center items-center sm:gap-3 gap-1 lg:gap-8  ">
             {menuList.map((e, i) => {
-              return <span key={i} className='sm:text-base lg:text-xl cursor-pointer hover:text-blue-500 hover:border-b-2 border-blue-500 active:text-blue-500 '>{e}</span>
+              return <span key={i} className='sm:text-base lg:text-xl cursor-pointer hover:text-blue-500 border-b-2 border-gray-50 hover:border-blue-500 active:text-blue-500 '>{e}</span>
             })}
           </div>
         </div>
@@ -77,7 +77,7 @@ const Navbar = () => {
           {menuList.map((item, i) => (
             <span
               key={i}
-              className="text-base font-medium cursor-pointer  hover:text-blue-500 active:text-blue-500 hover:border-b-2 border-blue-500"
+              className="text-base font-medium cursor-pointer  hover:text-blue-500 active:text-blue-500 border-b-2 border-gray-50 hover:border-blue-500"
             >
               {item}
             </span>
