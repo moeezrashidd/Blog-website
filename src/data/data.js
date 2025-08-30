@@ -866,7 +866,7 @@ we not only fuel our bodies but also nurture our well-being for years to come.
           date:"2025-08-21",
           author: "Sophia Lee",
           category: "Food & Recipes",
-          isLatest: false
+          isLatest: true
         },
         {
           id: 8,

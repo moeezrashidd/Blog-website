@@ -55,7 +55,7 @@ const Hero = () => {
 
             <div className="dots z-40 absolute bottom-0 flex gap-2 mb-4 justify-center items-center">
                 {sliderData.map(( element ,index)=>{
-                    return <div className={`dot  rounded-full cursor-pointer ${index === Current ? "bg-blue-500 sm:w-5 sm:h-5 w-3 h-3" : "bg-gray-100 sm:w-4 sm:h-4 w-2 h-2"}`} ></div>
+                    return <div className={`dot  rounded-full cursor-pointer ${index === Current ? "bg-blue-500 sm:w-5 sm:h-5 w-3 h-3" : "bg-gray-100 sm:w-4 sm:h-4 w-2 h-2"}`} key={index} ></div>
                 })}
             </div>
         </div>
