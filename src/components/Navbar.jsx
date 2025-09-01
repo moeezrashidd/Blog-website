@@ -5,11 +5,19 @@ import { FcSearch } from "react-icons/fc";
 import { IoReorderThreeSharp } from "react-icons/io5";
 import { FaLinesLeaning } from "react-icons/fa6";
 import { LuSearchX } from "react-icons/lu";
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false)
   const [toggleSearch, setToggleSearch] = useState(false)
-  const menuList = ["home", "posts", "contact", "About", "categories"]
+  const menuList = [
+    { label: "Home", url: "/" },
+    { label: "Posts", url: "/posts" },
+    { label: "Contact", url: "/contact" },
+    { label: "About", url: "/about" },
+    { label: "Categories", url: "/categories" },
+  ];
+  
   return (
     <>
       <nav className='flex justify-between items-center py-4 '>
@@ -31,20 +39,10 @@ const Navbar = () => {
 
           <div className="menu flex justify-center items-center sm:gap-3 gap-1 lg:gap-8  ">
             {menuList.map((e, i) => {
-              return <span key={i} className='sm:text-base lg:text-xl cursor-pointer hover:text-blue-500 border-b-2 border-gray-50 hover:border-blue-500 active:text-blue-500 '>{e}</span>
+              return <span key={i} className='sm:text-base lg:text-xl cursor-pointer hover:text-blue-500 border-b-2 border-gray-50 hover:border-blue-500 active:text-blue-500 '><Link to={e.url}>{e.label}</Link></span>
             })}
           </div>
         </div>
-
-
-
-
-
-
-
-
-
-
 
 
         <div className="searchAndSignin flex justify-center items-center gap-1 ">

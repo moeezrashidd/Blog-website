@@ -4,27 +4,32 @@ export const sliderData = [
 {
     title :'💡 “Your Daily Dose of Tech Knowledge”' ,
     desc:'“Stay ahead with the latest trends, tutorials, and insights on AI, software development, gadgets, and everything tech.”',
-    img: tech
+    img: tech,
+    category:"Technology"
 },
 {
     title :'🌍 “Business Trends That Shape the Future”' ,
     desc:'“Stay updated with the latest in finance, marketing, and global entrepreneurship.”',
-    img: bussiness
+    img: bussiness,
+    category:"Business & Finance"
 },
 {
     title :'🍝 “Delicious Recipes Made Simple” ' ,
     desc:'“Cook mouth-watering meals at home with easy, step-by-step recipes for every occasion.”',
-    img: food
+    img: food,
+    category:"Food & Recipes"
 },
 {
     title :'🏔️ “Discover the World Beyond Borders”' ,
     desc:'“Explore breathtaking destinations, thrilling adventures, and travel tips for your next journey.”',
-    img: travling
+    img: travling,
+    category:"Travel"
 },
 {
     title :'🏋️“Build Strength, Build Confidence”' ,
     desc:'“Discover effective workouts, tips, and routines to push past limits and achieve your fitness goals.”',
-    img: workout
+    img: workout,
+    category:"Sports & Fitness"
 },
 ]
 // ***************categories**************
@@ -52,6 +57,124 @@ export const categories = [
 export const postsData = [
         {
           id: 1,
+          title: "Global Politics in 2025: Shifting Alliances",
+          description: `
+The year 2025 marks  significant turning point in global politics. The world is no longer defined
+by the simple binary competition of the Cold War era, nor is it the unipolar landscape that
+emerged in the early 1990s. Instead, nations now operate within a dynamic, multipolar
+framework where shifting alliances, economic interests, and technological innovations are
+reshaping how countries interact with one another. These transformations are not just affecting
+diplomatic relations between governments—they are influencing trade, defense, climate policy,
+and even cultural exchange.
+
+One of the most visible changes has been the **reconfiguration of power blocs**. Traditional
+alliances like NATO remain relevant, but their role has evolved. NATO’s focus is no longer solely
+on countering military threats from adversarial powers but also on tackling cyber warfare,
+climate-related security challenges, and global terrorism. Member states are increasingly
+divided over how much responsibility should be placed on the alliance versus domestic
+governments. This has led to tensions within NATO but also prompted innovation in collective
+defense strategies.
+
+At the same time, **emerging powers** are asserting themselves on the global stage. China
+continues to expand its influence through its Belt and Road Initiative (BRI), strengthening
+infrastructure links across Asia, Africa, and Europe. India, with its rapidly growing economy and
+strategic partnerships, is positioning itself as a counterbalance to Chinese influence in Asia. In
+Africa, nations like Nigeria, Kenya, and South Africa are playing increasingly important roles in
+regional diplomacy, driven by both economic growth and the need to address transnational
+challenges such as migration and climate change.
+
+The United States, while still a global superpower, finds itself navigating a far more complex
+environment. Domestic political divisions, debates over international commitments, and the rise
+of populism have influenced how Washington engages abroad. U.S. leadership in global
+institutions is frequently challenged, and many countries now prefer to hedge their bets by
+maintaining relationships with both the U.S. and its competitors. This has given rise to what
+some analysts call a “multi-alignment” strategy, where states avoid choosing sides and instead
+cooperate with different powers depending on the issue at hand.
+
+Nowhere is this more evident than in the **Middle East**, a region long at the center of global
+politics. The Abraham Accords have reshaped Arab-Israeli relations, but ongoing conflicts in
+Syria, Yemen, and Libya continue to destabilize the region. Meanwhile, Gulf states are rapidly
+diversifying their economies, investing heavily in renewable energy and technology. This shift
+reduces their dependence on oil exports while increasing their diplomatic leverage. Turkey,
+meanwhile, has emerged as a regional power with ambitions that extend into Europe, Central
+Asia, and Africa. The balance of power in the Middle East is fluid, with alliances shifting in
+response to both local and international dynamics.
+
+In **Europe**, the European Union (EU) faces its own set of challenges. While the EU has shown
+remarkable unity in addressing crises like the COVID-19 pandemic and the war in Ukraine, it
+remains divided on issues such as migration policy, defense spending, and relations with China.
+Some member states favor deeper integration, while others push for more national sovereignty.
+The debate over how much power should rest in Brussels versus national capitals is shaping
+Europe’s future role in global affairs. Despite these tensions, the EU continues to wield
+significant soft power, particularly in setting standards for technology, data privacy, and climate
+policy.
+
+The role of **Russia** in 2025 also remains pivotal. Despite economic sanctions and international
+isolation in some arenas, Russia continues to exert influence in Eastern Europe, the Middle East,
+and Africa through military intervention, energy exports, and strategic partnerships. However,
+its long-term power is constrained by demographic decline, economic challenges, and the
+growing alignment between Western countries and nations that once leaned toward Moscow.
+
+One of the most significant arenas for shifting alliances is **technology and cyber power**.
+Countries are no longer just competing for territory or resources—they are competing for
+dominance in artificial intelligence, quantum computing, and 5G/6G networks. Nations leading
+in technological innovation gain not only economic advantages but also military and strategic
+ones. Cybersecurity has become a cornerstone of national defense, and international conflicts
+are increasingly fought in the digital realm rather than on physical battlefields. Alliances in the
+tech space are now as important as those in defense or trade.
+
+Another global issue reshaping alliances is **climate change**. Rising sea levels, severe weather
+events, and food insecurity are forcing governments to cooperate across borders. Climate
+diplomacy has become a central feature of international politics, with countries forming “green
+alliances” to share technology, finance renewable energy projects, and reduce emissions.
+However, divisions persist between developed and developing nations. While wealthier
+countries emphasize emissions reductions, poorer nations demand greater financial support to
+adapt to the impacts of climate change. These tensions highlight the challenge of forging
+consensus on issues that affect every corner of the globe.
+
+**Global trade patterns** are also shifting in 2025. Supply chain disruptions caused by the
+COVID-19 pandemic, geopolitical conflicts, and resource shortages have led many countries to
+rethink their reliance on a single source for critical goods. The trend toward “friendshoring”—the
+practice of trading primarily with trusted allies—has gained momentum. At the same time,
+regional trade agreements are becoming more important, as countries seek to secure access to
+resources and markets in an increasingly uncertain world.
+
+In Latin America, **regional alliances** are undergoing transformation. Countries like Brazil and
+Mexico are leveraging their economic power to play bigger roles in global institutions, while
+regional organizations like MERCOSUR and the Pacific Alliance seek to expand cooperation
+beyond trade into areas like health, education, and climate resilience. Political instability in
+some nations, however, continues to hinder collective progress.
+
+The rise of **non-state actors** is another defining trend of global politics in 2025. Multinational
+corporations, NGOs, and even influential individuals are shaping international agendas on issues
+ranging from human rights to technology regulation. Social media has amplified these voices,
+allowing movements like climate activism and digital rights advocacy to exert pressure on
+governments and international organizations. In many cases, these actors are filling gaps left by
+traditional state diplomacy.
+
+Looking ahead, the defining characteristic of global politics in 2025 is **fluidity**. Alliances are no
+longer fixed; they evolve constantly based on shifting interests, emerging technologies, and
+urgent global challenges. While this creates uncertainty, it also opens opportunities for
+innovation in diplomacy and cooperation. The nations that thrive in this environment will be
+those that remain flexible, build diverse partnerships, and invest in both traditional and digital
+forms of power.
+
+In conclusion, the world of 2025 is one of shifting alliances, where no single country or bloc
+holds uncontested dominance. Power is dispersed, influence is contested, and cooperation is
+both more necessary and more complicated than ever before. Whether humanity can navigate
+this complexity peacefully will define not just the next decade, but the course of the century
+itself.
+
+          `,
+          photo: bussiness,
+          time: "12:00:00",
+          date:"2024-02-08",
+          author: "Ava Johnson",
+          category: "News & Current Affairs",
+          isLatest: true
+        },
+        {
+          id: 2,
           title: "Global Politics in 2025: Shifting Alliances",
           description: `
 The year 2025 marks a significant turning point in global politics. The world is no longer defined
@@ -169,7 +292,715 @@ itself.
           isLatest: true
         },
         {
-          id: 2,
+          id: 3,
+          title: "Global Politics in 2025: Shifting Alliances",
+          description: `
+The year 2025 marks a significant turning point in global politics. The world is no longer defined
+by the simple binary competition of the Cold War era, nor is it the unipolar landscape that
+emerged in the early 1990s. Instead, nations now operate within a dynamic, multipolar
+framework where shifting alliances, economic interests, and technological innovations are
+reshaping how countries interact with one another. These transformations are not just affecting
+diplomatic relations between governments—they are influencing trade, defense, climate policy,
+and even cultural exchange.
+
+One of the most visible changes has been the **reconfiguration of power blocs**. Traditional
+alliances like NATO remain relevant, but their role has evolved. NATO’s focus is no longer solely
+on countering military threats from adversarial powers but also on tackling cyber warfare,
+climate-related security challenges, and global terrorism. Member states are increasingly
+divided over how much responsibility should be placed on the alliance versus domestic
+governments. This has led to tensions within NATO but also prompted innovation in collective
+defense strategies.
+
+At the same time, **emerging powers** are asserting themselves on the global stage. China
+continues to expand its influence through its Belt and Road Initiative (BRI), strengthening
+infrastructure links across Asia, Africa, and Europe. India, with its rapidly growing economy and
+strategic partnerships, is positioning itself as a counterbalance to Chinese influence in Asia. In
+Africa, nations like Nigeria, Kenya, and South Africa are playing increasingly important roles in
+regional diplomacy, driven by both economic growth and the need to address transnational
+challenges such as migration and climate change.
+
+The United States, while still a global superpower, finds itself navigating a far more complex
+environment. Domestic political divisions, debates over international commitments, and the rise
+of populism have influenced how Washington engages abroad. U.S. leadership in global
+institutions is frequently challenged, and many countries now prefer to hedge their bets by
+maintaining relationships with both the U.S. and its competitors. This has given rise to what
+some analysts call a “multi-alignment” strategy, where states avoid choosing sides and instead
+cooperate with different powers depending on the issue at hand.
+
+Nowhere is this more evident than in the **Middle East**, a region long at the center of global
+politics. The Abraham Accords have reshaped Arab-Israeli relations, but ongoing conflicts in
+Syria, Yemen, and Libya continue to destabilize the region. Meanwhile, Gulf states are rapidly
+diversifying their economies, investing heavily in renewable energy and technology. This shift
+reduces their dependence on oil exports while increasing their diplomatic leverage. Turkey,
+meanwhile, has emerged as a regional power with ambitions that extend into Europe, Central
+Asia, and Africa. The balance of power in the Middle East is fluid, with alliances shifting in
+response to both local and international dynamics.
+
+In **Europe**, the European Union (EU) faces its own set of challenges. While the EU has shown
+remarkable unity in addressing crises like the COVID-19 pandemic and the war in Ukraine, it
+remains divided on issues such as migration policy, defense spending, and relations with China.
+Some member states favor deeper integration, while others push for more national sovereignty.
+The debate over how much power should rest in Brussels versus national capitals is shaping
+Europe’s future role in global affairs. Despite these tensions, the EU continues to wield
+significant soft power, particularly in setting standards for technology, data privacy, and climate
+policy.
+
+The role of **Russia** in 2025 also remains pivotal. Despite economic sanctions and international
+isolation in some arenas, Russia continues to exert influence in Eastern Europe, the Middle East,
+and Africa through military intervention, energy exports, and strategic partnerships. However,
+its long-term power is constrained by demographic decline, economic challenges, and the
+growing alignment between Western countries and nations that once leaned toward Moscow.
+
+One of the most significant arenas for shifting alliances is **technology and cyber power**.
+Countries are no longer just competing for territory or resources—they are competing for
+dominance in artificial intelligence, quantum computing, and 5G/6G networks. Nations leading
+in technological innovation gain not only economic advantages but also military and strategic
+ones. Cybersecurity has become a cornerstone of national defense, and international conflicts
+are increasingly fought in the digital realm rather than on physical battlefields. Alliances in the
+tech space are now as important as those in defense or trade.
+
+Another global issue reshaping alliances is **climate change**. Rising sea levels, severe weather
+events, and food insecurity are forcing governments to cooperate across borders. Climate
+diplomacy has become a central feature of international politics, with countries forming “green
+alliances” to share technology, finance renewable energy projects, and reduce emissions.
+However, divisions persist between developed and developing nations. While wealthier
+countries emphasize emissions reductions, poorer nations demand greater financial support to
+adapt to the impacts of climate change. These tensions highlight the challenge of forging
+consensus on issues that affect every corner of the globe.
+
+**Global trade patterns** are also shifting in 2025. Supply chain disruptions caused by the
+COVID-19 pandemic, geopolitical conflicts, and resource shortages have led many countries to
+rethink their reliance on a single source for critical goods. The trend toward “friendshoring”—the
+practice of trading primarily with trusted allies—has gained momentum. At the same time,
+regional trade agreements are becoming more important, as countries seek to secure access to
+resources and markets in an increasingly uncertain world.
+
+In Latin America, **regional alliances** are undergoing transformation. Countries like Brazil and
+Mexico are leveraging their economic power to play bigger roles in global institutions, while
+regional organizations like MERCOSUR and the Pacific Alliance seek to expand cooperation
+beyond trade into areas like health, education, and climate resilience. Political instability in
+some nations, however, continues to hinder collective progress.
+
+The rise of **non-state actors** is another defining trend of global politics in 2025. Multinational
+corporations, NGOs, and even influential individuals are shaping international agendas on issues
+ranging from human rights to technology regulation. Social media has amplified these voices,
+allowing movements like climate activism and digital rights advocacy to exert pressure on
+governments and international organizations. In many cases, these actors are filling gaps left by
+traditional state diplomacy.
+
+Looking ahead, the defining characteristic of global politics in 2025 is **fluidity**. Alliances are no
+longer fixed; they evolve constantly based on shifting interests, emerging technologies, and
+urgent global challenges. While this creates uncertainty, it also opens opportunities for
+innovation in diplomacy and cooperation. The nations that thrive in this environment will be
+those that remain flexible, build diverse partnerships, and invest in both traditional and digital
+forms of power.
+
+In conclusion, the world of 2025 is one of shifting alliances, where no single country or bloc
+holds uncontested dominance. Power is dispersed, influence is contested, and cooperation is
+both more necessary and more complicated than ever before. Whether humanity can navigate
+this complexity peacefully will define not just the next decade, but the course of the century
+itself.
+
+          `,
+          photo: "https://source.unsplash.com/800x600/?news,politics",
+          time: "12:00:00",
+          date:"2024-02-08",
+          author: "Ava Johnson",
+          category: "News & Current Affairs",
+          isLatest: true
+        },
+        {
+          id: 4,
+          title: "Global Politics in 2025: Shifting Alliances",
+          description: `
+The year 2025 marks a significant turning point in global politics. The world is no longer defined
+by the simple binary competition of the Cold War era, nor is it the unipolar landscape that
+emerged in the early 1990s. Instead, nations now operate within a dynamic, multipolar
+framework where shifting alliances, economic interests, and technological innovations are
+reshaping how countries interact with one another. These transformations are not just affecting
+diplomatic relations between governments—they are influencing trade, defense, climate policy,
+and even cultural exchange.
+
+One of the most visible changes has been the **reconfiguration of power blocs**. Traditional
+alliances like NATO remain relevant, but their role has evolved. NATO’s focus is no longer solely
+on countering military threats from adversarial powers but also on tackling cyber warfare,
+climate-related security challenges, and global terrorism. Member states are increasingly
+divided over how much responsibility should be placed on the alliance versus domestic
+governments. This has led to tensions within NATO but also prompted innovation in collective
+defense strategies.
+
+At the same time, **emerging powers** are asserting themselves on the global stage. China
+continues to expand its influence through its Belt and Road Initiative (BRI), strengthening
+infrastructure links across Asia, Africa, and Europe. India, with its rapidly growing economy and
+strategic partnerships, is positioning itself as a counterbalance to Chinese influence in Asia. In
+Africa, nations like Nigeria, Kenya, and South Africa are playing increasingly important roles in
+regional diplomacy, driven by both economic growth and the need to address transnational
+challenges such as migration and climate change.
+
+The United States, while still a global superpower, finds itself navigating a far more complex
+environment. Domestic political divisions, debates over international commitments, and the rise
+of populism have influenced how Washington engages abroad. U.S. leadership in global
+institutions is frequently challenged, and many countries now prefer to hedge their bets by
+maintaining relationships with both the U.S. and its competitors. This has given rise to what
+some analysts call a “multi-alignment” strategy, where states avoid choosing sides and instead
+cooperate with different powers depending on the issue at hand.
+
+Nowhere is this more evident than in the **Middle East**, a region long at the center of global
+politics. The Abraham Accords have reshaped Arab-Israeli relations, but ongoing conflicts in
+Syria, Yemen, and Libya continue to destabilize the region. Meanwhile, Gulf states are rapidly
+diversifying their economies, investing heavily in renewable energy and technology. This shift
+reduces their dependence on oil exports while increasing their diplomatic leverage. Turkey,
+meanwhile, has emerged as a regional power with ambitions that extend into Europe, Central
+Asia, and Africa. The balance of power in the Middle East is fluid, with alliances shifting in
+response to both local and international dynamics.
+
+In **Europe**, the European Union (EU) faces its own set of challenges. While the EU has shown
+remarkable unity in addressing crises like the COVID-19 pandemic and the war in Ukraine, it
+remains divided on issues such as migration policy, defense spending, and relations with China.
+Some member states favor deeper integration, while others push for more national sovereignty.
+The debate over how much power should rest in Brussels versus national capitals is shaping
+Europe’s future role in global affairs. Despite these tensions, the EU continues to wield
+significant soft power, particularly in setting standards for technology, data privacy, and climate
+policy.
+
+The role of **Russia** in 2025 also remains pivotal. Despite economic sanctions and international
+isolation in some arenas, Russia continues to exert influence in Eastern Europe, the Middle East,
+and Africa through military intervention, energy exports, and strategic partnerships. However,
+its long-term power is constrained by demographic decline, economic challenges, and the
+growing alignment between Western countries and nations that once leaned toward Moscow.
+
+One of the most significant arenas for shifting alliances is **technology and cyber power**.
+Countries are no longer just competing for territory or resources—they are competing for
+dominance in artificial intelligence, quantum computing, and 5G/6G networks. Nations leading
+in technological innovation gain not only economic advantages but also military and strategic
+ones. Cybersecurity has become a cornerstone of national defense, and international conflicts
+are increasingly fought in the digital realm rather than on physical battlefields. Alliances in the
+tech space are now as important as those in defense or trade.
+
+Another global issue reshaping alliances is **climate change**. Rising sea levels, severe weather
+events, and food insecurity are forcing governments to cooperate across borders. Climate
+diplomacy has become a central feature of international politics, with countries forming “green
+alliances” to share technology, finance renewable energy projects, and reduce emissions.
+However, divisions persist between developed and developing nations. While wealthier
+countries emphasize emissions reductions, poorer nations demand greater financial support to
+adapt to the impacts of climate change. These tensions highlight the challenge of forging
+consensus on issues that affect every corner of the globe.
+
+**Global trade patterns** are also shifting in 2025. Supply chain disruptions caused by the
+COVID-19 pandemic, geopolitical conflicts, and resource shortages have led many countries to
+rethink their reliance on a single source for critical goods. The trend toward “friendshoring”—the
+practice of trading primarily with trusted allies—has gained momentum. At the same time,
+regional trade agreements are becoming more important, as countries seek to secure access to
+resources and markets in an increasingly uncertain world.
+
+In Latin America, **regional alliances** are undergoing transformation. Countries like Brazil and
+Mexico are leveraging their economic power to play bigger roles in global institutions, while
+regional organizations like MERCOSUR and the Pacific Alliance seek to expand cooperation
+beyond trade into areas like health, education, and climate resilience. Political instability in
+some nations, however, continues to hinder collective progress.
+
+The rise of **non-state actors** is another defining trend of global politics in 2025. Multinational
+corporations, NGOs, and even influential individuals are shaping international agendas on issues
+ranging from human rights to technology regulation. Social media has amplified these voices,
+allowing movements like climate activism and digital rights advocacy to exert pressure on
+governments and international organizations. In many cases, these actors are filling gaps left by
+traditional state diplomacy.
+
+Looking ahead, the defining characteristic of global politics in 2025 is **fluidity**. Alliances are no
+longer fixed; they evolve constantly based on shifting interests, emerging technologies, and
+urgent global challenges. While this creates uncertainty, it also opens opportunities for
+innovation in diplomacy and cooperation. The nations that thrive in this environment will be
+those that remain flexible, build diverse partnerships, and invest in both traditional and digital
+forms of power.
+
+In conclusion, the world of 2025 is one of shifting alliances, where no single country or bloc
+holds uncontested dominance. Power is dispersed, influence is contested, and cooperation is
+both more necessary and more complicated than ever before. Whether humanity can navigate
+this complexity peacefully will define not just the next decade, but the course of the century
+itself.
+
+          `,
+          photo: "https://source.unsplash.com/800x600/?news,politics",
+          time: "12:00:00",
+          date:"2024-02-08",
+          author: "Ava Johnson",
+          category: "News & Current Affairs",
+          isLatest: true
+        },
+        {
+          id: 5,
+          title: "Global Politics in 2025: Shifting Alliances",
+          description: `
+The year 2025 marks a significant turning point in global politics. The world is no longer defined
+by the simple binary competition of the Cold War era, nor is it the unipolar landscape that
+emerged in the early 1990s. Instead, nations now operate within a dynamic, multipolar
+framework where shifting alliances, economic interests, and technological innovations are
+reshaping how countries interact with one another. These transformations are not just affecting
+diplomatic relations between governments—they are influencing trade, defense, climate policy,
+and even cultural exchange.
+
+One of the most visible changes has been the **reconfiguration of power blocs**. Traditional
+alliances like NATO remain relevant, but their role has evolved. NATO’s focus is no longer solely
+on countering military threats from adversarial powers but also on tackling cyber warfare,
+climate-related security challenges, and global terrorism. Member states are increasingly
+divided over how much responsibility should be placed on the alliance versus domestic
+governments. This has led to tensions within NATO but also prompted innovation in collective
+defense strategies.
+
+At the same time, **emerging powers** are asserting themselves on the global stage. China
+continues to expand its influence through its Belt and Road Initiative (BRI), strengthening
+infrastructure links across Asia, Africa, and Europe. India, with its rapidly growing economy and
+strategic partnerships, is positioning itself as a counterbalance to Chinese influence in Asia. In
+Africa, nations like Nigeria, Kenya, and South Africa are playing increasingly important roles in
+regional diplomacy, driven by both economic growth and the need to address transnational
+challenges such as migration and climate change.
+
+The United States, while still a global superpower, finds itself navigating a far more complex
+environment. Domestic political divisions, debates over international commitments, and the rise
+of populism have influenced how Washington engages abroad. U.S. leadership in global
+institutions is frequently challenged, and many countries now prefer to hedge their bets by
+maintaining relationships with both the U.S. and its competitors. This has given rise to what
+some analysts call a “multi-alignment” strategy, where states avoid choosing sides and instead
+cooperate with different powers depending on the issue at hand.
+
+Nowhere is this more evident than in the **Middle East**, a region long at the center of global
+politics. The Abraham Accords have reshaped Arab-Israeli relations, but ongoing conflicts in
+Syria, Yemen, and Libya continue to destabilize the region. Meanwhile, Gulf states are rapidly
+diversifying their economies, investing heavily in renewable energy and technology. This shift
+reduces their dependence on oil exports while increasing their diplomatic leverage. Turkey,
+meanwhile, has emerged as a regional power with ambitions that extend into Europe, Central
+Asia, and Africa. The balance of power in the Middle East is fluid, with alliances shifting in
+response to both local and international dynamics.
+
+In **Europe**, the European Union (EU) faces its own set of challenges. While the EU has shown
+remarkable unity in addressing crises like the COVID-19 pandemic and the war in Ukraine, it
+remains divided on issues such as migration policy, defense spending, and relations with China.
+Some member states favor deeper integration, while others push for more national sovereignty.
+The debate over how much power should rest in Brussels versus national capitals is shaping
+Europe’s future role in global affairs. Despite these tensions, the EU continues to wield
+significant soft power, particularly in setting standards for technology, data privacy, and climate
+policy.
+
+The role of **Russia** in 2025 also remains pivotal. Despite economic sanctions and international
+isolation in some arenas, Russia continues to exert influence in Eastern Europe, the Middle East,
+and Africa through military intervention, energy exports, and strategic partnerships. However,
+its long-term power is constrained by demographic decline, economic challenges, and the
+growing alignment between Western countries and nations that once leaned toward Moscow.
+
+One of the most significant arenas for shifting alliances is **technology and cyber power**.
+Countries are no longer just competing for territory or resources—they are competing for
+dominance in artificial intelligence, quantum computing, and 5G/6G networks. Nations leading
+in technological innovation gain not only economic advantages but also military and strategic
+ones. Cybersecurity has become a cornerstone of national defense, and international conflicts
+are increasingly fought in the digital realm rather than on physical battlefields. Alliances in the
+tech space are now as important as those in defense or trade.
+
+Another global issue reshaping alliances is **climate change**. Rising sea levels, severe weather
+events, and food insecurity are forcing governments to cooperate across borders. Climate
+diplomacy has become a central feature of international politics, with countries forming “green
+alliances” to share technology, finance renewable energy projects, and reduce emissions.
+However, divisions persist between developed and developing nations. While wealthier
+countries emphasize emissions reductions, poorer nations demand greater financial support to
+adapt to the impacts of climate change. These tensions highlight the challenge of forging
+consensus on issues that affect every corner of the globe.
+
+**Global trade patterns** are also shifting in 2025. Supply chain disruptions caused by the
+COVID-19 pandemic, geopolitical conflicts, and resource shortages have led many countries to
+rethink their reliance on a single source for critical goods. The trend toward “friendshoring”—the
+practice of trading primarily with trusted allies—has gained momentum. At the same time,
+regional trade agreements are becoming more important, as countries seek to secure access to
+resources and markets in an increasingly uncertain world.
+
+In Latin America, **regional alliances** are undergoing transformation. Countries like Brazil and
+Mexico are leveraging their economic power to play bigger roles in global institutions, while
+regional organizations like MERCOSUR and the Pacific Alliance seek to expand cooperation
+beyond trade into areas like health, education, and climate resilience. Political instability in
+some nations, however, continues to hinder collective progress.
+
+The rise of **non-state actors** is another defining trend of global politics in 2025. Multinational
+corporations, NGOs, and even influential individuals are shaping international agendas on issues
+ranging from human rights to technology regulation. Social media has amplified these voices,
+allowing movements like climate activism and digital rights advocacy to exert pressure on
+governments and international organizations. In many cases, these actors are filling gaps left by
+traditional state diplomacy.
+
+Looking ahead, the defining characteristic of global politics in 2025 is **fluidity**. Alliances are no
+longer fixed; they evolve constantly based on shifting interests, emerging technologies, and
+urgent global challenges. While this creates uncertainty, it also opens opportunities for
+innovation in diplomacy and cooperation. The nations that thrive in this environment will be
+those that remain flexible, build diverse partnerships, and invest in both traditional and digital
+forms of power.
+
+In conclusion, the world of 2025 is one of shifting alliances, where no single country or bloc
+holds uncontested dominance. Power is dispersed, influence is contested, and cooperation is
+both more necessary and more complicated than ever before. Whether humanity can navigate
+this complexity peacefully will define not just the next decade, but the course of the century
+itself.
+
+          `,
+          photo: "https://source.unsplash.com/800x600/?news,politics",
+          time: "12:00:00",
+          date:"2024-02-08",
+          author: "Ava Johnson",
+          category: "News & Current Affairs",
+          isLatest: true
+        },
+        {
+          id: 6,
+          title: "Global Politics in 2025: Shifting Alliances",
+          description: `
+The year 2025 marks a significant turning point in global politics. The world is no longer defined
+by the simple binary competition of the Cold War era, nor is it the unipolar landscape that
+emerged in the early 1990s. Instead, nations now operate within a dynamic, multipolar
+framework where shifting alliances, economic interests, and technological innovations are
+reshaping how countries interact with one another. These transformations are not just affecting
+diplomatic relations between governments—they are influencing trade, defense, climate policy,
+and even cultural exchange.
+
+One of the most visible changes has been the **reconfiguration of power blocs**. Traditional
+alliances like NATO remain relevant, but their role has evolved. NATO’s focus is no longer solely
+on countering military threats from adversarial powers but also on tackling cyber warfare,
+climate-related security challenges, and global terrorism. Member states are increasingly
+divided over how much responsibility should be placed on the alliance versus domestic
+governments. This has led to tensions within NATO but also prompted innovation in collective
+defense strategies.
+
+At the same time, **emerging powers** are asserting themselves on the global stage. China
+continues to expand its influence through its Belt and Road Initiative (BRI), strengthening
+infrastructure links across Asia, Africa, and Europe. India, with its rapidly growing economy and
+strategic partnerships, is positioning itself as a counterbalance to Chinese influence in Asia. In
+Africa, nations like Nigeria, Kenya, and South Africa are playing increasingly important roles in
+regional diplomacy, driven by both economic growth and the need to address transnational
+challenges such as migration and climate change.
+
+The United States, while still a global superpower, finds itself navigating a far more complex
+environment. Domestic political divisions, debates over international commitments, and the rise
+of populism have influenced how Washington engages abroad. U.S. leadership in global
+institutions is frequently challenged, and many countries now prefer to hedge their bets by
+maintaining relationships with both the U.S. and its competitors. This has given rise to what
+some analysts call a “multi-alignment” strategy, where states avoid choosing sides and instead
+cooperate with different powers depending on the issue at hand.
+
+Nowhere is this more evident than in the **Middle East**, a region long at the center of global
+politics. The Abraham Accords have reshaped Arab-Israeli relations, but ongoing conflicts in
+Syria, Yemen, and Libya continue to destabilize the region. Meanwhile, Gulf states are rapidly
+diversifying their economies, investing heavily in renewable energy and technology. This shift
+reduces their dependence on oil exports while increasing their diplomatic leverage. Turkey,
+meanwhile, has emerged as a regional power with ambitions that extend into Europe, Central
+Asia, and Africa. The balance of power in the Middle East is fluid, with alliances shifting in
+response to both local and international dynamics.
+
+In **Europe**, the European Union (EU) faces its own set of challenges. While the EU has shown
+remarkable unity in addressing crises like the COVID-19 pandemic and the war in Ukraine, it
+remains divided on issues such as migration policy, defense spending, and relations with China.
+Some member states favor deeper integration, while others push for more national sovereignty.
+The debate over how much power should rest in Brussels versus national capitals is shaping
+Europe’s future role in global affairs. Despite these tensions, the EU continues to wield
+significant soft power, particularly in setting standards for technology, data privacy, and climate
+policy.
+
+The role of **Russia** in 2025 also remains pivotal. Despite economic sanctions and international
+isolation in some arenas, Russia continues to exert influence in Eastern Europe, the Middle East,
+and Africa through military intervention, energy exports, and strategic partnerships. However,
+its long-term power is constrained by demographic decline, economic challenges, and the
+growing alignment between Western countries and nations that once leaned toward Moscow.
+
+One of the most significant arenas for shifting alliances is **technology and cyber power**.
+Countries are no longer just competing for territory or resources—they are competing for
+dominance in artificial intelligence, quantum computing, and 5G/6G networks. Nations leading
+in technological innovation gain not only economic advantages but also military and strategic
+ones. Cybersecurity has become a cornerstone of national defense, and international conflicts
+are increasingly fought in the digital realm rather than on physical battlefields. Alliances in the
+tech space are now as important as those in defense or trade.
+
+Another global issue reshaping alliances is **climate change**. Rising sea levels, severe weather
+events, and food insecurity are forcing governments to cooperate across borders. Climate
+diplomacy has become a central feature of international politics, with countries forming “green
+alliances” to share technology, finance renewable energy projects, and reduce emissions.
+However, divisions persist between developed and developing nations. While wealthier
+countries emphasize emissions reductions, poorer nations demand greater financial support to
+adapt to the impacts of climate change. These tensions highlight the challenge of forging
+consensus on issues that affect every corner of the globe.
+
+**Global trade patterns** are also shifting in 2025. Supply chain disruptions caused by the
+COVID-19 pandemic, geopolitical conflicts, and resource shortages have led many countries to
+rethink their reliance on a single source for critical goods. The trend toward “friendshoring”—the
+practice of trading primarily with trusted allies—has gained momentum. At the same time,
+regional trade agreements are becoming more important, as countries seek to secure access to
+resources and markets in an increasingly uncertain world.
+
+In Latin America, **regional alliances** are undergoing transformation. Countries like Brazil and
+Mexico are leveraging their economic power to play bigger roles in global institutions, while
+regional organizations like MERCOSUR and the Pacific Alliance seek to expand cooperation
+beyond trade into areas like health, education, and climate resilience. Political instability in
+some nations, however, continues to hinder collective progress.
+
+The rise of **non-state actors** is another defining trend of global politics in 2025. Multinational
+corporations, NGOs, and even influential individuals are shaping international agendas on issues
+ranging from human rights to technology regulation. Social media has amplified these voices,
+allowing movements like climate activism and digital rights advocacy to exert pressure on
+governments and international organizations. In many cases, these actors are filling gaps left by
+traditional state diplomacy.
+
+Looking ahead, the defining characteristic of global politics in 2025 is **fluidity**. Alliances are no
+longer fixed; they evolve constantly based on shifting interests, emerging technologies, and
+urgent global challenges. While this creates uncertainty, it also opens opportunities for
+innovation in diplomacy and cooperation. The nations that thrive in this environment will be
+those that remain flexible, build diverse partnerships, and invest in both traditional and digital
+forms of power.
+
+In conclusion, the world of 2025 is one of shifting alliances, where no single country or bloc
+holds uncontested dominance. Power is dispersed, influence is contested, and cooperation is
+both more necessary and more complicated than ever before. Whether humanity can navigate
+this complexity peacefully will define not just the next decade, but the course of the century
+itself.
+
+          `,
+          photo: "https://source.unsplash.com/800x600/?news,politics",
+          time: "12:00:00",
+          date:"2024-02-08",
+          author: "Ava Johnson",
+          category: "News & Current Affairs",
+          isLatest: true
+        },
+        {
+          id: 7,
+          title: "Global Politics in 2025: Shifting Alliances",
+          description: `
+The year 2025 marks a significant turning point in global politics. The world is no longer defined
+by the simple binary competition of the Cold War era, nor is it the unipolar landscape that
+emerged in the early 1990s. Instead, nations now operate within a dynamic, multipolar
+framework where shifting alliances, economic interests, and technological innovations are
+reshaping how countries interact with one another. These transformations are not just affecting
+diplomatic relations between governments—they are influencing trade, defense, climate policy,
+and even cultural exchange.
+
+One of the most visible changes has been the **reconfiguration of power blocs**. Traditional
+alliances like NATO remain relevant, but their role has evolved. NATO’s focus is no longer solely
+on countering military threats from adversarial powers but also on tackling cyber warfare,
+climate-related security challenges, and global terrorism. Member states are increasingly
+divided over how much responsibility should be placed on the alliance versus domestic
+governments. This has led to tensions within NATO but also prompted innovation in collective
+defense strategies.
+
+At the same time, **emerging powers** are asserting themselves on the global stage. China
+continues to expand its influence through its Belt and Road Initiative (BRI), strengthening
+infrastructure links across Asia, Africa, and Europe. India, with its rapidly growing economy and
+strategic partnerships, is positioning itself as a counterbalance to Chinese influence in Asia. In
+Africa, nations like Nigeria, Kenya, and South Africa are playing increasingly important roles in
+regional diplomacy, driven by both economic growth and the need to address transnational
+challenges such as migration and climate change.
+
+The United States, while still a global superpower, finds itself navigating a far more complex
+environment. Domestic political divisions, debates over international commitments, and the rise
+of populism have influenced how Washington engages abroad. U.S. leadership in global
+institutions is frequently challenged, and many countries now prefer to hedge their bets by
+maintaining relationships with both the U.S. and its competitors. This has given rise to what
+some analysts call a “multi-alignment” strategy, where states avoid choosing sides and instead
+cooperate with different powers depending on the issue at hand.
+
+Nowhere is this more evident than in the **Middle East**, a region long at the center of global
+politics. The Abraham Accords have reshaped Arab-Israeli relations, but ongoing conflicts in
+Syria, Yemen, and Libya continue to destabilize the region. Meanwhile, Gulf states are rapidly
+diversifying their economies, investing heavily in renewable energy and technology. This shift
+reduces their dependence on oil exports while increasing their diplomatic leverage. Turkey,
+meanwhile, has emerged as a regional power with ambitions that extend into Europe, Central
+Asia, and Africa. The balance of power in the Middle East is fluid, with alliances shifting in
+response to both local and international dynamics.
+
+In **Europe**, the European Union (EU) faces its own set of challenges. While the EU has shown
+remarkable unity in addressing crises like the COVID-19 pandemic and the war in Ukraine, it
+remains divided on issues such as migration policy, defense spending, and relations with China.
+Some member states favor deeper integration, while others push for more national sovereignty.
+The debate over how much power should rest in Brussels versus national capitals is shaping
+Europe’s future role in global affairs. Despite these tensions, the EU continues to wield
+significant soft power, particularly in setting standards for technology, data privacy, and climate
+policy.
+
+The role of **Russia** in 2025 also remains pivotal. Despite economic sanctions and international
+isolation in some arenas, Russia continues to exert influence in Eastern Europe, the Middle East,
+and Africa through military intervention, energy exports, and strategic partnerships. However,
+its long-term power is constrained by demographic decline, economic challenges, and the
+growing alignment between Western countries and nations that once leaned toward Moscow.
+
+One of the most significant arenas for shifting alliances is **technology and cyber power**.
+Countries are no longer just competing for territory or resources—they are competing for
+dominance in artificial intelligence, quantum computing, and 5G/6G networks. Nations leading
+in technological innovation gain not only economic advantages but also military and strategic
+ones. Cybersecurity has become a cornerstone of national defense, and international conflicts
+are increasingly fought in the digital realm rather than on physical battlefields. Alliances in the
+tech space are now as important as those in defense or trade.
+
+Another global issue reshaping alliances is **climate change**. Rising sea levels, severe weather
+events, and food insecurity are forcing governments to cooperate across borders. Climate
+diplomacy has become a central feature of international politics, with countries forming “green
+alliances” to share technology, finance renewable energy projects, and reduce emissions.
+However, divisions persist between developed and developing nations. While wealthier
+countries emphasize emissions reductions, poorer nations demand greater financial support to
+adapt to the impacts of climate change. These tensions highlight the challenge of forging
+consensus on issues that affect every corner of the globe.
+
+**Global trade patterns** are also shifting in 2025. Supply chain disruptions caused by the
+COVID-19 pandemic, geopolitical conflicts, and resource shortages have led many countries to
+rethink their reliance on a single source for critical goods. The trend toward “friendshoring”—the
+practice of trading primarily with trusted allies—has gained momentum. At the same time,
+regional trade agreements are becoming more important, as countries seek to secure access to
+resources and markets in an increasingly uncertain world.
+
+In Latin America, **regional alliances** are undergoing transformation. Countries like Brazil and
+Mexico are leveraging their economic power to play bigger roles in global institutions, while
+regional organizations like MERCOSUR and the Pacific Alliance seek to expand cooperation
+beyond trade into areas like health, education, and climate resilience. Political instability in
+some nations, however, continues to hinder collective progress.
+
+The rise of **non-state actors** is another defining trend of global politics in 2025. Multinational
+corporations, NGOs, and even influential individuals are shaping international agendas on issues
+ranging from human rights to technology regulation. Social media has amplified these voices,
+allowing movements like climate activism and digital rights advocacy to exert pressure on
+governments and international organizations. In many cases, these actors are filling gaps left by
+traditional state diplomacy.
+
+Looking ahead, the defining characteristic of global politics in 2025 is **fluidity**. Alliances are no
+longer fixed; they evolve constantly based on shifting interests, emerging technologies, and
+urgent global challenges. While this creates uncertainty, it also opens opportunities for
+innovation in diplomacy and cooperation. The nations that thrive in this environment will be
+those that remain flexible, build diverse partnerships, and invest in both traditional and digital
+forms of power.
+
+In conclusion, the world of 2025 is one of shifting alliances, where no single country or bloc
+holds uncontested dominance. Power is dispersed, influence is contested, and cooperation is
+both more necessary and more complicated than ever before. Whether humanity can navigate
+this complexity peacefully will define not just the next decade, but the course of the century
+itself.
+
+          `,
+          photo: "https://source.unsplash.com/800x600/?news,politics",
+          time: "12:00:00",
+          date:"2024-02-08",
+          author: "Ava Johnson",
+          category: "News & Current Affairs",
+          isLatest: true
+        },
+        {
+          id: 21,
+          title: "Global Politics in 2025: Shifting Alliances",
+          description: `
+The year 2025 marks a significant turning point in global politics. The world is no longer defined
+by the simple binary competition of the Cold War era, nor is it the unipolar landscape that
+emerged in the early 1990s. Instead, nations now operate within a dynamic, multipolar
+framework where shifting alliances, economic interests, and technological innovations are
+reshaping how countries interact with one another. These transformations are not just affecting
+diplomatic relations between governments—they are influencing trade, defense, climate policy,
+and even cultural exchange.
+
+One of the most visible changes has been the **reconfiguration of power blocs**. Traditional
+alliances like NATO remain relevant, but their role has evolved. NATO’s focus is no longer solely
+on countering military threats from adversarial powers but also on tackling cyber warfare,
+climate-related security challenges, and global terrorism. Member states are increasingly
+divided over how much responsibility should be placed on the alliance versus domestic
+governments. This has led to tensions within NATO but also prompted innovation in collective
+defense strategies.
+
+At the same time, **emerging powers** are asserting themselves on the global stage. China
+continues to expand its influence through its Belt and Road Initiative (BRI), strengthening
+infrastructure links across Asia, Africa, and Europe. India, with its rapidly growing economy and
+strategic partnerships, is positioning itself as a counterbalance to Chinese influence in Asia. In
+Africa, nations like Nigeria, Kenya, and South Africa are playing increasingly important roles in
+regional diplomacy, driven by both economic growth and the need to address transnational
+challenges such as migration and climate change.
+
+The United States, while still a global superpower, finds itself navigating a far more complex
+environment. Domestic political divisions, debates over international commitments, and the rise
+of populism have influenced how Washington engages abroad. U.S. leadership in global
+institutions is frequently challenged, and many countries now prefer to hedge their bets by
+maintaining relationships with both the U.S. and its competitors. This has given rise to what
+some analysts call a “multi-alignment” strategy, where states avoid choosing sides and instead
+cooperate with different powers depending on the issue at hand.
+
+Nowhere is this more evident than in the **Middle East**, a region long at the center of global
+politics. The Abraham Accords have reshaped Arab-Israeli relations, but ongoing conflicts in
+Syria, Yemen, and Libya continue to destabilize the region. Meanwhile, Gulf states are rapidly
+diversifying their economies, investing heavily in renewable energy and technology. This shift
+reduces their dependence on oil exports while increasing their diplomatic leverage. Turkey,
+meanwhile, has emerged as a regional power with ambitions that extend into Europe, Central
+Asia, and Africa. The balance of power in the Middle East is fluid, with alliances shifting in
+response to both local and international dynamics.
+
+In **Europe**, the European Union (EU) faces its own set of challenges. While the EU has shown
+remarkable unity in addressing crises like the COVID-19 pandemic and the war in Ukraine, it
+remains divided on issues such as migration policy, defense spending, and relations with China.
+Some member states favor deeper integration, while others push for more national sovereignty.
+The debate over how much power should rest in Brussels versus national capitals is shaping
+Europe’s future role in global affairs. Despite these tensions, the EU continues to wield
+significant soft power, particularly in setting standards for technology, data privacy, and climate
+policy.
+
+The role of **Russia** in 2025 also remains pivotal. Despite economic sanctions and international
+isolation in some arenas, Russia continues to exert influence in Eastern Europe, the Middle East,
+and Africa through military intervention, energy exports, and strategic partnerships. However,
+its long-term power is constrained by demographic decline, economic challenges, and the
+growing alignment between Western countries and nations that once leaned toward Moscow.
+
+One of the most significant arenas for shifting alliances is **technology and cyber power**.
+Countries are no longer just competing for territory or resources—they are competing for
+dominance in artificial intelligence, quantum computing, and 5G/6G networks. Nations leading
+in technological innovation gain not only economic advantages but also military and strategic
+ones. Cybersecurity has become a cornerstone of national defense, and international conflicts
+are increasingly fought in the digital realm rather than on physical battlefields. Alliances in the
+tech space are now as important as those in defense or trade.
+
+Another global issue reshaping alliances is **climate change**. Rising sea levels, severe weather
+events, and food insecurity are forcing governments to cooperate across borders. Climate
+diplomacy has become a central feature of international politics, with countries forming “green
+alliances” to share technology, finance renewable energy projects, and reduce emissions.
+However, divisions persist between developed and developing nations. While wealthier
+countries emphasize emissions reductions, poorer nations demand greater financial support to
+adapt to the impacts of climate change. These tensions highlight the challenge of forging
+consensus on issues that affect every corner of the globe.
+
+**Global trade patterns** are also shifting in 2025. Supply chain disruptions caused by the
+COVID-19 pandemic, geopolitical conflicts, and resource shortages have led many countries to
+rethink their reliance on a single source for critical goods. The trend toward “friendshoring”—the
+practice of trading primarily with trusted allies—has gained momentum. At the same time,
+regional trade agreements are becoming more important, as countries seek to secure access to
+resources and markets in an increasingly uncertain world.
+
+In Latin America, **regional alliances** are undergoing transformation. Countries like Brazil and
+Mexico are leveraging their economic power to play bigger roles in global institutions, while
+regional organizations like MERCOSUR and the Pacific Alliance seek to expand cooperation
+beyond trade into areas like health, education, and climate resilience. Political instability in
+some nations, however, continues to hinder collective progress.
+
+The rise of **non-state actors** is another defining trend of global politics in 2025. Multinational
+corporations, NGOs, and even influential individuals are shaping international agendas on issues
+ranging from human rights to technology regulation. Social media has amplified these voices,
+allowing movements like climate activism and digital rights advocacy to exert pressure on
+governments and international organizations. In many cases, these actors are filling gaps left by
+traditional state diplomacy.
+
+Looking ahead, the defining characteristic of global politics in 2025 is **fluidity**. Alliances are no
+longer fixed; they evolve constantly based on shifting interests, emerging technologies, and
+urgent global challenges. While this creates uncertainty, it also opens opportunities for
+innovation in diplomacy and cooperation. The nations that thrive in this environment will be
+those that remain flexible, build diverse partnerships, and invest in both traditional and digital
+forms of power.
+
+In conclusion, the world of 2025 is one of shifting alliances, where no single country or bloc
+holds uncontested dominance. Power is dispersed, influence is contested, and cooperation is
+both more necessary and more complicated than ever before. Whether humanity can navigate
+this complexity peacefully will define not just the next decade, but the course of the century
+itself.
+
+          `,
+          photo: "https://source.unsplash.com/800x600/?news,politics",
+          time: "12:00:00",
+          date:"2024-02-08",
+          author: "Ava Johnson",
+          category: "News & Current Affairs",
+          isLatest: true
+        },
+        {
+          id: 8,
           title: "The Next Wave of AI in Technology",
           description: `In 2025, Artificial Intelligence (AI) has evolved from a futuristic concept into a practical necessity
 that shapes nearly every aspect of daily life. What once existed only in research papers and
@@ -270,7 +1101,7 @@ toward a future that is fair, just, and beneficial for all.
           isLatest: true
         },
         {
-          id: 3,
+          id: 9,
           title: "Entrepreneurship in the Digital Age",
           description: `
            
@@ -386,7 +1217,7 @@ just for themselves, but for society as a whole.
           isLatest: false
         },
         {
-          id: 4,
+          id: 10,
           title: "How Online Learning is Reshaping Education",
           description: `
 Education has always been the cornerstone of human progress, shaping societies, building
@@ -502,7 +1333,7 @@ growth, curiosity, and connection.
           isLatest: false
         },
         {
-          id: 5,
+          id: 11,
           title: "Wellness Trends Transforming 2025",
           description: `
 
@@ -620,7 +1451,7 @@ more balanced ones.
           isLatest: false
         },
         {
-          id: 6,
+          id: 12,
           title: "Minimalism: The Lifestyle Choice of the Future",
           description: `
 
@@ -736,7 +1567,7 @@ choices of the future.
           isLatest: false
         },
         {
-          id: 7,
+          id: 13,
           title: "Top 5 Recipes for Healthy Living",
           description: `
         
@@ -869,7 +1700,7 @@ we not only fuel our bodies but also nurture our well-being for years to come.
           isLatest: true
         },
         {
-          id: 8,
+          id: 14,
           title: "Exploring Hidden Travel Gems in 2025",
           description: `
            
@@ -1014,7 +1845,7 @@ it’s in the hidden gems waiting to be discovered by those willing to look beyo
           isLatest: true
         },
         {
-          id: 9,
+          id: 15,
           title: "The Future of Cinema and Streaming",
           description: `
            
@@ -1167,7 +1998,7 @@ other, together shaping a richer, more connected world of storytelling.
           isLatest: false
         },
         {
-          id: 10,
+          id: 16,
           title: "Fashion in the Age of Sustainability",
           description: `
 
@@ -1329,7 +2160,7 @@ carry with us. In 2025, the most stylish thing anyone can wear is sustainability
           isLatest: false
         },
         {
-          id: 11,
+          id: 17,
           title: "Creativity in the Digital Era",
           description: `
 
@@ -1485,7 +2316,7 @@ every platform, and every person willing to share their imagination with the wor
           isLatest: false
         },
         {
-          id: 12,
+          id: 18,
           title: "Breakthroughs in Space Exploration",
           description: `
            
@@ -1664,7 +2495,7 @@ step we take among the stars is also a step toward better understanding ourselve
           isLatest: false
         },
         {
-          id: 13,
+          id: 19,
           title: "Fitness in a Post-Pandemic World",
           description: `
 
@@ -1831,7 +2662,7 @@ future.
           isLatest: false
         },
         {
-          id: 14,
+          id: 20,
           title: "Sustainability: Building a Greener Future",
           description: `
       

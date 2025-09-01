@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react'
-import { tech } from '../assets'
 import { sliderData } from '../data/data'
-
+import {Link} from "react-router-dom"
 import { FcNext, FcPrevious } from "react-icons/fc";
 const Hero = () => {
     const [Current, setCurrent] = useState(0)
@@ -41,7 +40,7 @@ const Hero = () => {
 
                         <h1 className='text-white sm:text-5xl lg:text-6xl text-4xl font-bold  text-center sm:text-left'>{item.title}</h1>
                         <p className='text-white text-xl text-center sm:text-left '>{item.desc}</p>
-                        <span className='bg-blue-500 text-white text-2xl border-2 border-blue-500 hover:border-white w-36 py-1 flex justify-center items-center cursor-pointer rounded-lg '>Read Posts</span>
+                        <span className='bg-blue-500 text-white text-2xl border-2 border-blue-500 hover:border-white w-36 py-1 flex justify-center items-center cursor-pointer rounded-lg '><Link to={`/posts/${encodeURIComponent(item.category)}`}>Read Posts</Link></span>
                     </div>
                 </div>
             })}
