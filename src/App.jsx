@@ -1,6 +1,6 @@
 import React from 'react'
 import Posts from './pages/posts'
-import Home from './pages/Home'
+import Home from './pages/home'
 import Categories from './pages/categories'
 import Navbar from './components/Navbar'
 import About from "./pages/about"
