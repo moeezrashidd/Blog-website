@@ -6,7 +6,7 @@ import About from "./pages/about"
 import Contact from "./pages/contact"
 import FullPost from './pages/fullPost'
 import {BrowserRouter as Router, Routes, Route, } from 'react-router-dom'
-import Home from "./pages/Home"
+import Home from "./pages/home"
 
 const App = () => {
   return (

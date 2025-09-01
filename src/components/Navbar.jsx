@@ -77,7 +77,7 @@ const Navbar = () => {
               key={i}
               className="text-base font-medium cursor-pointer  hover:text-blue-500 active:text-blue-500 border-b-2 border-gray-50 hover:border-blue-500"
             >
-              {item}
+            <Link to={item.url}>{item.label}</Link>
             </span>
           ))}
         </motion.div>)}
