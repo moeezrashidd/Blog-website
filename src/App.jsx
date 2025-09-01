@@ -1,13 +1,12 @@
 import React from 'react'
 import Posts from './pages/posts'
-import Home from './pages/home'
 import Categories from './pages/categories'
 import Navbar from './components/Navbar'
 import About from "./pages/about"
 import Contact from "./pages/contact"
 import FullPost from './pages/fullPost'
 import {BrowserRouter as Router, Routes, Route, } from 'react-router-dom'
-
+import Home from "./pages/Home"
 
 const App = () => {
   return (
