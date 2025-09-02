@@ -7,6 +7,8 @@ import Contact from "./pages/contact"
 import FullPost from './pages/fullPost'
 import {BrowserRouter as Router, Routes, Route, } from 'react-router-dom'
 import Home from "./pages/home"
+import SignIn from './pages/signIn'
+import SignUp from './pages/signUp'
 
 const App = () => {
   return (
@@ -20,6 +22,9 @@ const App = () => {
             <Route path="/about" element={<> <Navbar /><About /></>}/>
             <Route path="/contact" element={<> <Navbar /><Contact /></>}/>
             <Route path="/post/:id/:title" element={<> <Navbar /><FullPost /></>}/>
+            <Route path="/signIn" element={<SignIn />}/>
+            <Route path="/signUp" element={<SignUp />}/>
+
         </Routes>
 
     </Router>
