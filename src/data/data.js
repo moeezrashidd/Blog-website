@@ -2836,3 +2836,143 @@ sustainable world is not a distant dream—it is within our grasp.
       
 
 
+      // *************footer data**************
+
+      // src/data/footerLinks.js
+import {
+  FaGithub,
+  FaLinkedin,
+  FaTwitter,
+  FaInstagram,
+  FaYoutube,
+  FaFacebook,
+} from "react-icons/fa";
+import { SiFiverr, SiUpwork, SiTiktok } from "react-icons/si";
+
+export const footerLinks = [
+  {
+    id: 1,
+    name: "GitHub",
+    href: "https://github.com/moeezrashid",
+    icon: FaGithub,
+  },
+  {
+    id: 2,
+    name: "YouTube",
+    href: "https://github.com/",
+    icon: FaYoutube,
+  },
+  {
+    id: 3,
+    name: "Facebook",
+    href: "https://github.com/", 
+    icon: FaFacebook,
+  },
+  {
+    id: 4,
+    name: "Instagram",
+    href: "https://www.instagram.com/moeezrashidd",
+    icon: FaInstagram,
+  },
+  {
+    id: 5,
+    name: "LinkedIn",
+    href: "https://linkedin.com/", 
+    icon: FaLinkedin,
+  },
+  {
+    id: 6,
+    name: "Twitter",
+    href: "https://twitter.com/", 
+    icon: FaTwitter,
+  },
+  {
+    id: 7,
+    name: "Fiverr",
+    href: "https://www.fiverr.com/moeezrashidd/",
+    icon: SiFiverr,
+  },
+  {
+    id: 8,
+    name: "Upwork",
+    href: "https://twitter.com/", 
+    icon: SiUpwork,
+  },
+  {
+    id: 9,
+    name: "TikTok",
+    href: "https://www.tiktok.com/@moeezzrashid",
+    icon: SiTiktok,
+  },
+];
+
+
+// ***************************user file*******************************
+//  ********************Data**************************************
+
+// src/data/users.js
+export const users = [
+  {
+    id: 1,
+    name: "Moeez Rashid",
+    username: "moeezrashid",
+    avatar: "https://ui-avatars.com/api/?name=Moeez+Rashid&background=0D8ABC&color=fff",
+    bio: "Developer of MR-Blog | Passionate about web & creativity 🚀",
+    posts: [
+      {
+        id: 101,
+        title: "Welcome to MR-Blog 🎉",
+        category: "Announcements",
+        content: "This is our first post — where ideas meet creativity. Let's grow together!",
+        date: "2025-09-01",
+      },
+      {
+        id: 102,
+        title: "Why React is Awesome ⚛️",
+        category: "Technology",
+        content: "React makes building UIs fun and scalable. Let’s explore its power.",
+        date: "2025-09-02",
+      },
+    ],
+  },
+  {
+    id: 2,
+    name: "Sara Khan",
+    username: "sarakhan",
+    avatar: "https://ui-avatars.com/api/?name=Sara+Khan&background=FF5733&color=fff",
+    bio: "Content creator & blogger ✨ | Sharing lifestyle and motivation",
+    posts: [
+      {
+        id: 201,
+        title: "Finding Balance in Life 🌸",
+        category: "Lifestyle",
+        content: "Life is about balance. Here are simple ways to find peace in daily routines.",
+        date: "2025-09-02",
+      },
+    ],
+  },
+  {
+    id: 3,
+    name: "Ali Ahmed",
+    username: "aliahmed",
+    avatar: "https://ui-avatars.com/api/?name=Ali+Ahmed&background=28A745&color=fff",
+    bio: "Tech enthusiast 💻 | Loves AI, coding, and problem-solving",
+    posts: [
+      {
+        id: 301,
+        title: "AI in Everyday Life 🤖",
+        category: "Technology",
+        content: "AI is not the future — it’s the present. Let’s explore how it shapes our lives.",
+        date: "2025-09-03",
+      },
+      {
+        id: 302,
+        title: "My Journey into Programming 👨‍💻",
+        category: "Education",
+        content: "Starting with C++, moving to Python, and now building in React!",
+        date: "2025-09-03",
+      },
+    ],
+  },
+];
+

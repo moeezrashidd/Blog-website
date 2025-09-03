@@ -12,7 +12,7 @@ const Categories = () => {
       {categories.map((curCategory, index) => (
         <div key={index} className="flex flex-col gap-2">
           <span className='text-2xl xl:4xl font-bold hover:text-blue-500 cursor-pointer text-center '>{curCategory}</span>
-          <div className="parent flex flex-wrap justify-start gap-1 sm:gap-2 mt-4">
+          <div className="parent flex flex-wrap justify-center items-center gap-1 sm:gap-2 mt-4">
 
             {postsData.filter((post) => post.category == curCategory).slice(0, 6).map((item, index) => (
               <PostCard key={index} item={item} />

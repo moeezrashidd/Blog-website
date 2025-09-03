@@ -4,7 +4,7 @@ const postCard = ({ item }) => {
     return (
 
 
-        <div className='postCard w-[48%]  md:w-[350px] lg:w-[400px] h-auto md:h-[50vh] flex flex-col justify-evenly items-start border-2 pl-3 hover:border-blue-600 
+        <div className='postCard w-[48%]  md:w-[350px] lg:w-[400px] h-auto md:h-[50vh] 2xl:h-[40vh] flex flex-col justify-evenly items-start border-2 pl-3 hover:border-blue-600 
   rounded-xl relative transition-all duration-300 pb-2'>
             <span className="title text-lg sm:text-xl font-medium sm:font-semibold "><span className='sm:text-base text-sm sm:inline hidden  text-gray-600 font-normal'>Title: </span> {item.title}</span>
             <p className="dec text-base text-gray-800 font-semibold hidden md:inline"><span className='text-base text-gray-600 font-normal sm:inline hidden '>Description: </span> {item.description.length > 150 ? item.description.slice(0, 150) + "..." : item.description}</p>
