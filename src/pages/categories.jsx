@@ -6,15 +6,32 @@ import { GoArrowUpRight } from "react-icons/go";
 import { Link } from 'react-router-dom';
 
 const Categories = () => {
+  const [Items, setItems] = useState(6)
+useEffect(() => {
+    const changeItemCount =()=>{
+        if (window.innerWidth < 840) {
+            setItems(4); 
+          }  else {
+            setItems(6); 
+          }
+    }   
+
+     changeItemCount()
+     window.addEventListener("resize" , changeItemCount)
+
+     return ()=> window.removeEventListener("resize" , changeItemCount)
+
+
+}, [])
   return (
     <div className="flex flex-col gap-6 mt-6">
 
       {categories.map((curCategory, index) => (
         <div key={index} className="flex flex-col gap-2">
-          <span className='text-2xl xl:4xl font-bold hover:text-blue-500 cursor-pointer text-center '>{curCategory}</span>
+         <Link to={`/posts/${encodeURIComponent(curCategory)}`} className='text-3xl xl:4xl font-bold hover:text-blue-500 cursor-pointer text-center '>{curCategory}</Link>
           <div className="parent flex flex-wrap justify-center items-center gap-1 sm:gap-2 mt-4">
 
-            {postsData.filter((post) => post.category == curCategory).slice(0, 6).map((item, index) => (
+            {postsData.filter((post) => post.category == curCategory).slice(0, Items).map((item, index) => (
               <PostCard key={index} item={item} />
             ))
 

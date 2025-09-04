@@ -1,22 +1,54 @@
-import React from 'react'
-import {Link} from "react-router-dom"
-const postCard = ({ item }) => {
-    return (
+import React from "react";
+import { Link } from "react-router-dom";
+import { motion } from "framer-motion";
 
+const PostCard = ({ item }) => {
+  return (
+    <motion.div
+      whileHover={{ scale: 1.02 }}
+      transition={{ duration: 0.3 }}
+      className="postCard w-full sm:w-[48%] md:w-[350px] lg:w-[400px] 
+        bg-white rounded-2xl shadow-2xl border border-gray-200 
+        hover:border-blue-500 
+        p-5 flex flex-col justify-between gap-3 transition-all duration-300"
+    >
+      {/* Title */}
+      <h2 className="title text-xl font-bold text-gray-900 line-clamp-2">
+        {item.title}
+      </h2>
 
-        <div className='postCard w-[48%]  md:w-[350px] lg:w-[400px] h-auto md:h-[50vh] 2xl:h-[40vh] flex flex-col justify-evenly items-start border-2 pl-3 hover:border-blue-600 
-  rounded-xl relative transition-all duration-300 pb-2'>
-            <span className="title text-lg sm:text-xl font-medium sm:font-semibold "><span className='sm:text-base text-sm sm:inline hidden  text-gray-600 font-normal'>Title: </span> {item.title}</span>
-            <p className="dec text-base text-gray-800 font-semibold hidden md:inline"><span className='text-base text-gray-600 font-normal sm:inline hidden '>Description: </span> {item.description.length > 150 ? item.description.slice(0, 150) + "..." : item.description}</p>
-            <p className='author text-base sm:text-lg font-semibold text-blue-700'><span className='sm:text-base text-sm sm:inline hidden  text-gray-600 font-normal'>Author: </span> {item.author}</p>
-            <p className="date text-base font-semibold"><span className='sm:text-base text-sm text-gray-600  sm:inline hidden font-normal'>Date:   </span> {item.date}</p>
-            <p className="time text-base font-semibold md:inline hidden"><span className='text-sm  text-gray-600  sm:inline hidden font-normal'>Time: </span> {item.time}</p>
-            <span className='bg-blue-500 text-white text-base sm:text-xl border-2 border-blue-500 hover:border-white sm:w-36 px-4 py-1 flex justify-center items-center cursor-pointer rounded-lg '><Link to={`/post/${item.id}/${item.title}`}>Read More</Link></span>
-        </div>
+      {/* Description */}
+      <p className="dec text-gray-700 text-sm md:text-base line-clamp-3">
+        {item.description.length > 150
+          ? item.description.slice(0, 150) + "..."
+          : item.description}
+      </p>
 
+      {/* Meta Info */}
+      <div className="flex flex-col gap-1 text-sm text-gray-600">
+        <p>
+          <span className="font-semibold text-gray-800">Author:</span>{" "}
+          {item.author}
+        </p>
+        <p>
+          <span className="font-semibold text-gray-800">Date:</span> {item.date}
+        </p>
+        <p className="hidden md:block">
+          <span className="font-semibold text-gray-800">Time:</span> {item.time}
+        </p>
+      </div>
 
+      {/* Read More Button */}
+      <Link
+        to={`/post/${item.id}/${item.title}`}
+        className="mt-3 w-full sm:w-auto px-5 py-2 
+          bg-blue-600 text-white font-medium rounded-xl 
+          text-center hover:bg-blue-700 transition-all duration-300"
+      >
+        Read More
+      </Link>
+    </motion.div>
+  );
+};
 
-    )
-}
-
-export default postCard
+export default PostCard;

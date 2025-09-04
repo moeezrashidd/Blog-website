@@ -166,7 +166,7 @@ this complexity peacefully will define not just the next decade, but the course 
 itself.
 
           `,
-          photo: bussiness,
+          photo: 'https://images.unsplash.com/photo-1500534314209-a25ddb2bd429',
           time: "12:00:00",
           date:"2024-02-08",
           author: "Ava Johnson",
@@ -284,7 +284,7 @@ this complexity peacefully will define not just the next decade, but the course 
 itself.
 
           `,
-          photo: "https://source.unsplash.com/800x600/?news,politics",
+          photo: "https://images.unsplash.com/photo-1517649763962-0c623066013b",
           time: "12:00:00",
           date:"2024-02-08",
           author: "Ava Johnson",
@@ -402,7 +402,7 @@ this complexity peacefully will define not just the next decade, but the course 
 itself.
 
           `,
-          photo: "https://source.unsplash.com/800x600/?news,politics",
+          photo: "https://images.unsplash.com/photo-1507413245164-6160d8298b31",
           time: "12:00:00",
           date:"2024-02-08",
           author: "Ava Johnson",
@@ -520,7 +520,7 @@ this complexity peacefully will define not just the next decade, but the course 
 itself.
 
           `,
-          photo: "https://source.unsplash.com/800x600/?news,politics",
+          photo: "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
           time: "12:00:00",
           date:"2024-02-08",
           author: "Ava Johnson",
@@ -638,7 +638,7 @@ this complexity peacefully will define not just the next decade, but the course 
 itself.
 
           `,
-          photo: "https://source.unsplash.com/800x600/?news,politics",
+          photo: "https://images.unsplash.com/photo-1521334884684-d80222895322",
           time: "12:00:00",
           date:"2024-02-08",
           author: "Ava Johnson",
@@ -756,7 +756,7 @@ this complexity peacefully will define not just the next decade, but the course 
 itself.
 
           `,
-          photo: "https://source.unsplash.com/800x600/?news,politics",
+          photo: "https://images.unsplash.com/photo-1504805572947-34fad45aed93",
           time: "12:00:00",
           date:"2024-02-08",
           author: "Ava Johnson",
@@ -874,7 +874,7 @@ this complexity peacefully will define not just the next decade, but the course 
 itself.
 
           `,
-          photo: "https://source.unsplash.com/800x600/?news,politics",
+          photo: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e",
           time: "12:00:00",
           date:"2024-02-08",
           author: "Ava Johnson",
@@ -2911,29 +2911,15 @@ export const footerLinks = [
 //  ********************Data**************************************
 
 // src/data/users.js
-export const users = [
+export const writers = [
   {
     id: 1,
     name: "Moeez Rashid",
     username: "moeezrashid",
     avatar: "https://ui-avatars.com/api/?name=Moeez+Rashid&background=0D8ABC&color=fff",
     bio: "Developer of MR-Blog | Passionate about web & creativity 🚀",
-    posts: [
-      {
-        id: 101,
-        title: "Welcome to MR-Blog 🎉",
-        category: "Announcements",
-        content: "This is our first post — where ideas meet creativity. Let's grow together!",
-        date: "2025-09-01",
-      },
-      {
-        id: 102,
-        title: "Why React is Awesome ⚛️",
-        category: "Technology",
-        content: "React makes building UIs fun and scalable. Let’s explore its power.",
-        date: "2025-09-02",
-      },
-    ],
+    writeAbout: "Technology"
+    
   },
   {
     id: 2,
@@ -2941,15 +2927,7 @@ export const users = [
     username: "sarakhan",
     avatar: "https://ui-avatars.com/api/?name=Sara+Khan&background=FF5733&color=fff",
     bio: "Content creator & blogger ✨ | Sharing lifestyle and motivation",
-    posts: [
-      {
-        id: 201,
-        title: "Finding Balance in Life 🌸",
-        category: "Lifestyle",
-        content: "Life is about balance. Here are simple ways to find peace in daily routines.",
-        date: "2025-09-02",
-      },
-    ],
+    writeAbout: "Lifestyle"
   },
   {
     id: 3,
@@ -2957,22 +2935,81 @@ export const users = [
     username: "aliahmed",
     avatar: "https://ui-avatars.com/api/?name=Ali+Ahmed&background=28A745&color=fff",
     bio: "Tech enthusiast 💻 | Loves AI, coding, and problem-solving",
-    posts: [
-      {
-        id: 301,
-        title: "AI in Everyday Life 🤖",
-        category: "Technology",
-        content: "AI is not the future — it’s the present. Let’s explore how it shapes our lives.",
-        date: "2025-09-03",
-      },
-      {
-        id: 302,
-        title: "My Journey into Programming 👨‍💻",
-        category: "Education",
-        content: "Starting with C++, moving to Python, and now building in React!",
-        date: "2025-09-03",
-      },
-    ],
+    writeAbout: "Technology"
+  },
+  {
+    id: 1,
+    name: "Moeez Rashid",
+    username: "moeezrashid",
+    avatar: "https://ui-avatars.com/api/?name=Moeez+Rashid&background=0D8ABC&color=fff",
+    bio: "Developer of MR-Blog | Passionate about web & creativity 🚀",
+    writeAbout: "Technology"
+    
+  },
+  {
+    id: 2,
+    name: "Sara Khan",
+    username: "sarakhan",
+    avatar: "https://ui-avatars.com/api/?name=Sara+Khan&background=FF5733&color=fff",
+    bio: "Content creator & blogger ✨ | Sharing lifestyle and motivation",
+    writeAbout: "Lifestyle"
+  },
+  {
+    id: 3,
+    name: "Ali Ahmed",
+    username: "aliahmed",
+    avatar: "https://ui-avatars.com/api/?name=Ali+Ahmed&background=28A745&color=fff",
+    bio: "Tech enthusiast 💻 | Loves AI, coding, and problem-solving",
+    writeAbout: "Technology"
+  },
+  {
+    id: 1,
+    name: "Moeez Rashid",
+    username: "moeezrashid",
+    avatar: "https://ui-avatars.com/api/?name=Moeez+Rashid&background=0D8ABC&color=fff",
+    bio: "Developer of MR-Blog | Passionate about web & creativity 🚀",
+    writeAbout: "Technology"
+    
+  },
+  {
+    id: 2,
+    name: "Sara Khan",
+    username: "sarakhan",
+    avatar: "https://ui-avatars.com/api/?name=Sara+Khan&background=FF5733&color=fff",
+    bio: "Content creator & blogger ✨ | Sharing lifestyle and motivation",
+    writeAbout: "Lifestyle"
+  },
+  {
+    id: 3,
+    name: "Ali Ahmed",
+    username: "aliahmed",
+    avatar: "https://ui-avatars.com/api/?name=Ali+Ahmed&background=28A745&color=fff",
+    bio: "Tech enthusiast 💻 | Loves AI, coding, and problem-solving",
+    writeAbout: "Technology"
+  },
+  {
+    id: 1,
+    name: "Moeez Rashid",
+    username: "moeezrashid",
+    avatar: "https://ui-avatars.com/api/?name=Moeez+Rashid&background=0D8ABC&color=fff",
+    bio: "Developer of MR-Blog | Passionate about web & creativity 🚀",
+    writeAbout: "Technology"
+    
+  },
+  {
+    id: 2,
+    name: "Sara Khan",
+    username: "sarakhan",
+    avatar: "https://ui-avatars.com/api/?name=Sara+Khan&background=FF5733&color=fff",
+    bio: "Content creator & blogger ✨ | Sharing lifestyle and motivation",
+    writeAbout: "Lifestyle"
+  },
+  {
+    id: 3,
+    name: "Ali Ahmed",
+    username: "aliahmed",
+    avatar: "https://ui-avatars.com/api/?name=Ali+Ahmed&background=28A745&color=fff",
+    bio: "Tech enthusiast 💻 | Loves AI, coding, and problem-solving",
+    writeAbout: "Technology"
   },
 ];
-

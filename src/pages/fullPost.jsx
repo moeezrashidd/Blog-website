@@ -1,55 +1,90 @@
-import React, { useEffect, useState } from 'react'
-import { postsData } from '../data/data'
-import { useParams } from 'react-router-dom'
-const fullPost = () => {
-  const { id } = useParams()
-  const [Post, setPost] = useState([])
-  const [DicsManage, setDicsManage] = useState(2000)
+import React, { useEffect, useState } from "react";
+import { postsData } from "../data/data";
+import { useParams } from "react-router-dom";
+
+const FullPost = () => {
+  const { id } = useParams();
+  const [Post, setPost] = useState([]);
+  const [DicsManage, setDicsManage] = useState(2000);
+
   useEffect(() => {
-    const tempPost = postsData.filter((post) => post.id == id)
-    setPost(tempPost)
+    const tempPost = postsData.filter((post) => post.id == id);
+    setPost(tempPost);
+  }, [id]);
 
+  const handleReadMore = (e) => {
+    if (DicsManage < e) {
+      setDicsManage((pre) => pre + 2000);
+    } else {
+      setDicsManage(2000);
+    }
+  };
 
-  }, [])
-  const handleReadMore = (e)=>{
-   if(DicsManage < e){
-    setDicsManage((pre)=> pre + 2000)
-   }
-   else{
-    setDicsManage(2000)
-   }
-  }
-console.log(useParams)
   return (
     <>
-    {
-      Post.map((item , index) => (
-        
-        <div key={index} className="post flex flex-col gap-4 my-4">
-          <span className='text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold'>{item.title}</span>
-        
-          <img src={item.photo} alt="Photo of Post" className='w-full xl:h-[70vh]' />
-          <p>{item.description.length > DicsManage ? item.description.slice(0,DicsManage) + ".........":item.description}</p>
+      {Post.map((item, index) => (
+        <div
+          key={index}
+          className="post flex flex-col gap-6 my-6 px-4 sm:px-8 lg:px-20 py-6 
+          bg-white shadow-xl rounded-2xl border border-gray-200"
+        >
+          {/* Title */}
+          <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 leading-snug">
+            {item.title}
+          </h1>
+
+          {/* Image */}
+          <img
+            src={`${item.photo}`}
+            alt="Photo of Post"
+            className="w-full rounded-xl shadow-md object-cover xl:h-[70vh]"
+          />
+
+          {/* Description */}
+          <p className="text-gray-800 text-base md:text-lg leading-relaxed">
+            {item.description.length > DicsManage
+              ? item.description.slice(0, DicsManage) + "..."
+              : item.description}
+          </p>
+
+          {/* Read More Button */}
           <div className="flex items-center justify-center gap-4 w-full my-6">
-            <span className="hidden sm:flex flex-1 border-t-2"></span>
-         
-              <span className={`text-center flex text-lg justify-center items-center gap-2 sm:text-xl font-normal text-blue-500  hover:text-white hover:bg-blue-500 border-2 border-blue-500 px-3 rounded-xl cursor-pointer `} onClick={()=>handleReadMore(item.description.length)}>{DicsManage < item.description.length ? " Read More" : "Close" }</span>
+            <span className="hidden sm:flex flex-1 border-t"></span>
 
-            <span className="hidden sm:flex flex-1 border-t-2"></span>
+            <button
+              onClick={() => handleReadMore(item.description.length)}
+              className="px-5 py-2 text-lg sm:text-xl font-medium text-blue-600 
+              border-2 border-blue-600 rounded-xl 
+              hover:bg-blue-600 hover:text-white transition-all duration-300"
+            >
+              {DicsManage < item.description.length ? "Read More" : "Close"}
+            </button>
+
+            <span className="hidden sm:flex flex-1 border-t"></span>
           </div>
-          <span className='flex flex-col '>
-            <span className='text-normal text-gray-500'>Writer: <span className='hover:text-blue-600 text-xl text-black cursor-pointer border-b-2 border-white hover:border-blue-500 '>{item.author}</span></span>
-            <span className='text-normal text-gray-500'>at <span className=' text-lg text-black  '>{item.date} {item.time}</span></span>
-          </span>
+
+          {/* Writer Info */}
+          <div className="flex flex-col gap-1 text-gray-600 text-sm sm:text-base">
+            <span>
+              Writer:{" "}
+              <span
+                className="text-black text-lg font-semibold hover:text-blue-600 
+                border-b-2 border-transparent hover:border-blue-500 transition-all cursor-pointer"
+              >
+                {item.author}
+              </span>
+            </span>
+            <span>
+              At{" "}
+              <span className="text-black text-base font-medium">
+                {item.date} {item.time}
+              </span>
+            </span>
           </div>
-        
-        
-      ))
-    }
-
-
+        </div>
+      ))}
     </>
-  )
-}
+  );
+};
 
-export default fullPost
+export default FullPost;

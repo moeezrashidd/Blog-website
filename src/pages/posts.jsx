@@ -6,7 +6,7 @@ const Posts = () => {
   const { category } = useParams();
   const decodedCategory = category ? decodeURIComponent(category) : null
   const [Posts, setPosts] = useState([])
-  const [PostCount, setPostCount] = useState(6)
+  const [PostCount, setPostCount] = useState(9)
   const [filteredPosts, setFilteredPosts] = useState(postsData);
 
   useEffect(() => {
@@ -19,22 +19,22 @@ const Posts = () => {
 
   const handleShowMorePosts = () => {
     if (PostCount >= postsData.length) {
-      setPostCount(6)
+      setPostCount(9)
     }
     else {
       setPostCount((pre) =>
-        pre + 6
+        pre + 3
       )
     }
   }
 
   const handleShowLessPosts = () => {
     if (PostCount <= postsData.length) {
-      setPostCount(6)
+      setPostCount(9)
     }
     else {
       setPostCount((pre) =>
-        pre - 6
+        pre - 3
       )
     }
   }
@@ -44,7 +44,7 @@ const Posts = () => {
 
 
   useEffect(() => {
-    if (filteredPosts.length > 6) {
+    if (filteredPosts.length > 9) {
       const TempPosts = filteredPosts.slice(0, PostCount)
       setPosts(TempPosts)
     }
@@ -60,7 +60,7 @@ const Posts = () => {
 
   return (
     <>
-      <div className="flex items-center justify-center gap-4 w-full my-6">
+      <div className="flex items-center justify-center gap-4 w-full my-9">
 
         <span className="hidden sm:flex flex-1 border-t-2"></span>
 
@@ -82,12 +82,12 @@ const Posts = () => {
         })}
       </div>
 
-      <div className="flex items-center justify-center gap-4 w-full my-6">
+      <div className="flex items-center justify-center gap-4 w-full my-9">
 
         <span className="hidden sm:flex flex-1 border-t-2"></span>
 
 
-        <span className={`text-center text-lg sm:text-xl font-normal text-blue-500  hover:text-white hover:bg-blue-500 border-2 border-blue-500 px-3 rounded-xl cursor-pointer ${PostCount >= 6 && filteredPosts.length > 6
+        <span className={`text-center text-lg sm:text-xl font-normal text-blue-500  hover:text-white hover:bg-blue-500 border-2 border-blue-500 px-3 rounded-xl cursor-pointer ${PostCount >= 9 && filteredPosts.length > 9
             ? PostCount >= filteredPosts.length
               ? "hidden"
               : "inline"
@@ -96,7 +96,7 @@ const Posts = () => {
           onClick={handleShowMorePosts}>
           show more
         </span>
-        <span className={`text-center text-lg sm:text-xl font-normal text-blue-500  hover:text-white hover:bg-blue-500 border-2 border-blue-500 px-3 rounded-xl cursor-pointer ${`PostCount >= 7 && filteredPosts.length > 7 ? ${PostCount == 6 ? "hidden" : "inline"} : "hidden"`}`} onClick={handleShowLessPosts}>
+        <span className={`text-center text-lg sm:text-xl font-normal text-blue-500  hover:text-white hover:bg-blue-500 border-2 border-blue-500 px-3 rounded-xl cursor-pointer ${`PostCount >= 7 && filteredPosts.length > 7 ? ${PostCount == 9 ? "hidden" : "inline"} : "hidden"`}`} onClick={handleShowLessPosts}>
           show less
         </span>
 

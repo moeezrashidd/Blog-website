@@ -40,7 +40,7 @@ const Hero = () => {
 
                         <h1 className='text-white sm:text-5xl lg:text-6xl text-4xl font-bold  text-center sm:text-left'>{item.title}</h1>
                         <p className='text-white text-xl text-center sm:text-left '>{item.desc}</p>
-                        <span className='bg-blue-500 text-white text-2xl border-2 border-blue-500 hover:border-white w-36 py-1 flex justify-center items-center cursor-pointer rounded-lg '><Link to={`/posts/${encodeURIComponent(item.category)}`}>Read Posts</Link></span>
+                        <span className='bg-blue-600 text-white text-2xl border-2 border-blue-600 hover:border-white w-36 py-1 flex justify-center items-center cursor-pointer rounded-lg '><Link to={`/posts/${encodeURIComponent(item.category)}`}>Read Posts</Link></span>
                     </div>
                 </div>
             })}
@@ -54,7 +54,7 @@ const Hero = () => {
 
             <div className="dots z-40 absolute bottom-0 flex gap-2 mb-4 justify-center items-center">
                 {sliderData.map(( element ,index)=>{
-                    return <div className={`dot  rounded-full cursor-pointer ${index === Current ? "bg-blue-500 sm:w-5 sm:h-5 w-3 h-3" : "bg-gray-100 sm:w-4 sm:h-4 w-2 h-2"}`} key={index} ></div>
+                    return <div className={`dot  rounded-full cursor-pointer ${index === Current ? "bg-blue-600 sm:w-5 sm:h-5 w-3 h-3" : "bg-gray-100 sm:w-4 sm:h-4 w-2 h-2"}`} key={index} ></div>
                 })}
             </div>
         </div>

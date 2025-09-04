@@ -16,7 +16,7 @@ const Footer = () => {
         {/* Logo + Name */}
         <div className="name flex justify-center items-center gap-4">
           <img src={logo} alt="logo" className='lg:w-14 sm:w-12 w-10 cursor-pointer rounded-full border-2 hover:border-blue-500' />
-          <span className=' lg:text-2xl xl:3xl text-xl font-semibold cursor-pointer'>MR-Blog</span>
+          <span className=' lg:text-2xl xl:3xl text-xl font-semibold cursor-pointer'>MR-<span className="text-blue-600">Blog</span></span>
         </div>
 
         {/* Social Links */}
@@ -38,7 +38,7 @@ const Footer = () => {
 
       {/* Bottom Text */}
       <p className="mt-6 text-center text-sm xl:text-base font-medium text-gray-700">
-        © {new Date().getFullYear()} Moeez Rashid. All rights reserved.
+        © {new Date().getFullYear()} <span className="text-blue-800"> Moeez Rashid</span>. All rights reserved.
       </p>
     </motion.footer>
   );
