@@ -22,7 +22,7 @@ const Navbar = () => {
     <>
       <nav className='flex justify-between items-center py-4 '>
         <div className="name flex justify-center items-center gap-4">
-          <img src={logo} alt="logo" className='lg:w-14 sm:w-12 w-10 cursor-pointer rounded-full border-2 hover:border-blue-600' />
+          <img src={logo} alt="logo" className='lg:w-14 sm:w-12 w-10 cursor-pointer rounded-full border-2 p-1 hover:border-blue-600' />
           <span className=' lg:text-2xl xl:3xl text-xl font-semibold cursor-pointer'>MR-<span className="text-blue-600">Blog</span></span>
         </div>
 
@@ -32,14 +32,14 @@ const Navbar = () => {
 
 
           <div className="search flex justify-center items-center w-full h-1/2 border-2 hover:border-blue-600 rounded-3xl">
-            <input type="text" placeholder='search' className='w-full pl-5 py-2 rounded-l-3xl outline-none ' />
+            <input type="text" placeholder='Search' className='w-full pl-5 py-2 rounded-l-3xl outline-none font-semibold ' />
             <span className='px-4 py-2 text-2xl cursor-pointer rounded-r-3xl bg-white'><FcSearch /></span>
           </div>
 
 
           <div className="menu flex justify-center items-center sm:gap-3 gap-1 lg:gap-8  ">
             {menuList.map((e, i) => {
-              return <span key={i} className='sm:text-base lg:text-xl cursor-pointer hover:text-blue-600 border-b-2 border-gray-50 hover:border-blue-600 active:text-blue-600 '><Link to={e.url}>{e.label}</Link></span>
+              return <span key={i} className='sm:text-base lg:text-xl cursor-pointer hover:text-blue-600 border-b-4 border-gray-50 hover:border-blue-600 active:text-blue-600 font-semibold '><Link to={e.url}>{e.label}</Link></span>
             })}
           </div>
         </div>
@@ -47,18 +47,18 @@ const Navbar = () => {
 
         <div className="searchAndSignin flex justify-center items-center gap-1 ">
 
-          <span className='p-1 px-2  hover:bg-blue-600  border-2 border-blue-600 hover:text-white text-blue-600  text-2xl cursor-pointer rounded  text justify-center items-center sm:hidden' onClick={() => {
+          <span className='p-1 px-2 font-semibold hover:bg-blue-600  border-2 border-blue-600 hover:text-white text-blue-600  text-2xl cursor-pointer rounded  text justify-center items-center sm:hidden' onClick={() => {
             setToggleMenu(!toggleMenu)
            {toggleSearch ? setToggleSearch(!toggleSearch) :setToggleSearch(toggleSearch)}
 
           }}>{toggleMenu ? <FaLinesLeaning /> : <IoReorderThreeSharp />}</span>
 
-          <span className='p-1 px-2  hover:bg-blue-600  border-2 border-blue-600 hover:text-white text-blue-600  text-2xl  cursor-pointer rounded  text justify-center items-center sm:hidden' onClick={() => {
+          <span className='p-1 px-2  hover:bg-blue-600  border-2 border-blue-600 hover:text-white text-blue-600  text-2xl  cursor-pointer rounded  text justify-center font-semibold items-center sm:hidden' onClick={() => {
              {toggleMenu ? setToggleMenu(!toggleMenu) :setToggleMenu(toggleMenu)}
             setToggleSearch(!toggleSearch)
           }}>{toggleSearch?<LuSearchX />:<FcSearch /> }</span>
 
-          <span className='p-1 sm:px-2 lg:px-5 hover:bg-blue-600 border-2 border-blue-600 hover:text-white text-blue-600  sm:text-base lg:text-xl cursor-pointer rounded  text justify-center items-center'><Link to="/signIn">Sign in</Link></span>
+          <span className='p-1 sm:px-2 lg:px-5 hover:bg-blue-600 border-2 border-blue-600 hover:text-white text-blue-600  sm:text-base lg:text-xl cursor-pointer rounded  text justify-center items-center font-semibold'><Link to="/signIn">Sign in</Link></span>
         </div>
       </nav>
 
@@ -75,7 +75,7 @@ const Navbar = () => {
           {menuList.map((item, i) => (
             <span
               key={i}
-              className="text-base font-medium cursor-pointer  hover:text-blue-600 active:text-blue-600 border-b-2 border-gray-50 hover:border-blue-600"
+              className="text-base font-medium cursor-pointer font-semibold hover:text-blue-600 active:text-blue-600 border-b-2 border-gray-50 hover:border-blue-600"
             >
             <Link to={item.url}>{item.label}</Link>
             </span>
@@ -88,7 +88,7 @@ const Navbar = () => {
         exit={{ opacity: 0, y: -20 }}
         transition={{ duration: 0.3 }}>
         <input type="text" placeholder='search' className='w-full pl-5 py-2 rounded-l-3xl outline-none ' />
-        <span className='px-4 py-3 cursor-pointer rounded-r-3xl bg-white'><FcSearch /></span>
+        <span className='px-4 py-3 cursor-pointer rounded-r-3xl bg-white font-semibold'><FcSearch /></span>
       </motion.div>)}
     </>
   )

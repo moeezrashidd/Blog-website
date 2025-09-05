@@ -17,8 +17,8 @@ const SignIn = () => {
     <div className="flex justify-center items-center min-h-screen px-4 ">
       <div className="w-full max-w-md bg-white shadow-lg rounded-2xl py-10 px-6 sm:px-10 border-2 hover:border-blue-500 focus:border-blue-500">
         {/* Heading */}
-        <h1 className="text-3xl font-bold text-gray-800 text-center">
-          Welcome Back
+        <h1 className="text-4xl font-bold text-gray-800 text-center">
+          Welcome  <span className="text-blue-600">Back</span>
         </h1>
         <p className="text-gray-500 text-center mt-2">
           Sign in to continue

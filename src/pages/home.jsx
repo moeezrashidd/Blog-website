@@ -5,6 +5,7 @@ import Footer from '../components/footer'
 import { postsData } from '../data/data'
 import PostCard from '../components/postCard'
 import Writers from '../components/writers'
+import SignUpBar from '../components/signUpBar'
 
 const Home = () => {
 const [Items, setItems] = useState(6)
@@ -42,7 +43,7 @@ useEffect(() => {
 
 
 
-                
+                <SignUpBar />
             <Footer />
 
 

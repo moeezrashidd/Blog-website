@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 const SignUp = () => {
   const [formData, setFormData] = useState({
     name: "",
+    username: "",
     email: "",
     password: "",
     confirmPassword: "",
@@ -26,10 +27,10 @@ const SignUp = () => {
   };
 
   return (
-    <div className="flex justify-center items-center min-h-screen px-4 ">
-      <div className="w-full max-w-md bg-white shadow-lg rounded-2xl py-10 px-6 sm:px-10 border-2 hover:border-blue-500 focus:border-blue-500">
+    <div className="flex justify-center items-center min-h-screen px-4">
+      <div className="w-full max-w-md bg-white shadow-xl rounded-2xl py-10 px-6 sm:px-10 border-2 hover:border-blue-500 focus:border-blue-500">
         {/* Heading */}
-        <h1 className="text-3xl font-bold text-gray-800 text-center">Create Account</h1>
+        <h1 className="text-4xl font-bold text-gray-800 text-center">Create <span className="text-blue-600">Account</span></h1>
         <p className="text-gray-500 text-center mt-2">Join us today!</p>
 
         {/* Form */}
@@ -46,6 +47,23 @@ const SignUp = () => {
               value={formData.name}
               onChange={handleChange}
               placeholder="Your full name"
+              required
+              className="h-11 px-4 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition-all"
+            />
+          </div>
+
+          {/* Username */}
+          <div className="flex flex-col">
+            <label htmlFor="username" className="text-sm font-semibold text-gray-700 mb-1">
+              Username
+            </label>
+            <input
+              type="text"
+              id="username"
+              name="username"
+              value={formData.username}
+              onChange={handleChange}
+              placeholder="Choose a unique username"
               required
               className="h-11 px-4 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition-all"
             />
@@ -94,10 +112,7 @@ const SignUp = () => {
 
           {/* Confirm Password */}
           <div className="flex flex-col relative">
-            <label
-              htmlFor="confirmPassword"
-              className="text-sm font-semibold text-gray-700 mb-1"
-            >
+            <label htmlFor="confirmPassword" className="text-sm font-semibold text-gray-700 mb-1">
               Confirm Password
             </label>
             <input

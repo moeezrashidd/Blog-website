@@ -10,18 +10,21 @@ import Home from "./pages/home"
 import SignIn from './pages/signIn'
 import SignUp from './pages/signUp'
 import Footer from './components/footer'
+import Account from './pages/account'
+import SignUpBar from './components/signUpBar'
 const App = () => {
   return (
       <main className="min-h-screen  px-4 sm:px-12 lg:px-18 bg-gray-50">
     <Router>
         <Routes>
             <Route path="/" element={<Home />}/>
-            <Route path="/posts" element={<> <Navbar /><Posts /> <Footer /></>}/>
-            <Route path="/posts/:category" element={<> <Navbar /><Posts /> <Footer /></>}/>
-            <Route path="/categories" element={<> <Navbar /><Categories /> <Footer /></>}/>
-            <Route path="/about" element={<> <Navbar /><About /> <Footer /></>}/>
-            <Route path="/contact" element={<> <Navbar /><Contact /> <Footer /></>}/>
-            <Route path="/post/:id/:title" element={<> <Navbar /><FullPost /> <Footer /></>}/>
+            <Route path="/posts" element={<> <Navbar /><Posts /><SignUpBar /> <Footer /></>}/>
+            <Route path="/posts/:category" element={<> <Navbar /><Posts /><SignUpBar /><Footer /></>}/>
+            <Route path="/categories" element={<> <Navbar /><Categories /><Footer /></>}/>
+            <Route path="/about" element={<> <Navbar /><About /><SignUpBar /><Footer /></>}/>
+            <Route path="/contact" element={<> <Navbar /><Contact /><SignUpBar /> <Footer /></>}/>
+            <Route path="/post/:id/:title" element={<> <Navbar /><FullPost /><SignUpBar /> <Footer /></>}/>
+            <Route path="/account/:id/:username" element={<><Navbar /><Account /><SignUpBar /><Footer /></>}/>
             <Route path="/signIn" element={<SignIn />}/>
             <Route path="/signUp" element={<SignUp />}/>
 

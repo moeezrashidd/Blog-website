@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { postsData } from "../data/data";
 import { useParams } from "react-router-dom";
-
+import Posts from "./posts";
 const FullPost = () => {
   const { id } = useParams();
   const [Post, setPost] = useState([]);
@@ -19,7 +19,8 @@ const FullPost = () => {
       setDicsManage(2000);
     }
   };
-
+  const category = Post.length > 0 ? Post[0].category : undefined
+  console.log(category)
   return (
     <>
       {Post.map((item, index) => (
@@ -83,6 +84,8 @@ const FullPost = () => {
           </div>
         </div>
       ))}
+
+      <Posts propCategory={category} id={id}/>
     </>
   );
 };

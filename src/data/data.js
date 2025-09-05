@@ -34,7 +34,7 @@ export const sliderData = [
 ]
 // ***************categories**************
 export const categories = [
-    "News & Current Affairs",
+    "Technology",
     "Technology",
     "Business & Finance",
     "Education & Learning",
@@ -169,8 +169,9 @@ itself.
           photo: 'https://images.unsplash.com/photo-1500534314209-a25ddb2bd429',
           time: "12:00:00",
           date:"2024-02-08",
-          author: "Ava Johnson",
-          category: "News & Current Affairs",
+          author: "Moeez Rashid",
+          username:"moeezrashid",
+          category: "Technology",
           isLatest: true
         },
         {
@@ -287,8 +288,9 @@ itself.
           photo: "https://images.unsplash.com/photo-1517649763962-0c623066013b",
           time: "12:00:00",
           date:"2024-02-08",
-          author: "Ava Johnson",
-          category: "News & Current Affairs",
+          author: "Moeez Rashid",
+          username:"moeezrashid",
+          category: "Technology",
           isLatest: true
         },
         {
@@ -405,8 +407,9 @@ itself.
           photo: "https://images.unsplash.com/photo-1507413245164-6160d8298b31",
           time: "12:00:00",
           date:"2024-02-08",
-          author: "Ava Johnson",
-          category: "News & Current Affairs",
+          author: "Moeez Rashid",
+          username:"moeezrashid",
+          category: "Technology",
           isLatest: true
         },
         {
@@ -523,8 +526,9 @@ itself.
           photo: "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
           time: "12:00:00",
           date:"2024-02-08",
-          author: "Ava Johnson",
-          category: "News & Current Affairs",
+          author: "Moeez Rashid",
+          username:"moeezrashid",
+          category: "Technology",
           isLatest: true
         },
         {
@@ -641,8 +645,9 @@ itself.
           photo: "https://images.unsplash.com/photo-1521334884684-d80222895322",
           time: "12:00:00",
           date:"2024-02-08",
-          author: "Ava Johnson",
-          category: "News & Current Affairs",
+          author: "Moeez Rashid",
+          username:"moeezrashid",
+          category: "Technology",
           isLatest: true
         },
         {
@@ -759,8 +764,9 @@ itself.
           photo: "https://images.unsplash.com/photo-1504805572947-34fad45aed93",
           time: "12:00:00",
           date:"2024-02-08",
-          author: "Ava Johnson",
-          category: "News & Current Affairs",
+          author: "Moeez Rashid",
+          username:"moeezrashid",
+          category: "Technology",
           isLatest: true
         },
         {
@@ -877,8 +883,9 @@ itself.
           photo: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e",
           time: "12:00:00",
           date:"2024-02-08",
-          author: "Ava Johnson",
-          category: "News & Current Affairs",
+          author: "Moeez Rashid",
+          username:"moeezrashid",
+          category: "Technology",
           isLatest: true
         },
         {
@@ -995,8 +1002,9 @@ itself.
           photo: "https://source.unsplash.com/800x600/?news,politics",
           time: "12:00:00",
           date:"2024-02-08",
-          author: "Ava Johnson",
-          category: "News & Current Affairs",
+          author: "Moeez Rashid",
+          username:"moeezrashid",
+          category: "Technology",
           isLatest: true
         },
         {
@@ -2918,7 +2926,12 @@ export const writers = [
     username: "moeezrashid",
     avatar: "https://ui-avatars.com/api/?name=Moeez+Rashid&background=0D8ABC&color=fff",
     bio: "Developer of MR-Blog | Passionate about web & creativity 🚀",
-    writeAbout: "Technology"
+    writeAbout: "Technology",
+    followers : "12K" ,
+    noOfPosts : "500",
+    noOfLikes: "100K",
+    noOfFollowing: "100",
+
     
   },
   {
@@ -2931,14 +2944,14 @@ export const writers = [
   },
   {
     id: 3,
-    name: "Ali Ahmed",
-    username: "aliahmed",
-    avatar: "https://ui-avatars.com/api/?name=Ali+Ahmed&background=28A745&color=fff",
-    bio: "Tech enthusiast 💻 | Loves AI, coding, and problem-solving",
-    writeAbout: "Technology"
+    name: "Musawar Rashid",
+    username: "musawarrashid",
+    avatar: "https://ui-avatars.com/api/?name=Musawar&background=28A655&color=fff",
+    bio: "Always think about food and eating noting more",
+    writeAbout: "Food"
   },
   {
-    id: 1,
+    id: 4,
     name: "Moeez Rashid",
     username: "moeezrashid",
     avatar: "https://ui-avatars.com/api/?name=Moeez+Rashid&background=0D8ABC&color=fff",
@@ -2947,7 +2960,7 @@ export const writers = [
     
   },
   {
-    id: 2,
+    id: 5,
     name: "Sara Khan",
     username: "sarakhan",
     avatar: "https://ui-avatars.com/api/?name=Sara+Khan&background=FF5733&color=fff",
@@ -2955,7 +2968,7 @@ export const writers = [
     writeAbout: "Lifestyle"
   },
   {
-    id: 3,
+    id: 6,
     name: "Ali Ahmed",
     username: "aliahmed",
     avatar: "https://ui-avatars.com/api/?name=Ali+Ahmed&background=28A745&color=fff",
@@ -2963,7 +2976,7 @@ export const writers = [
     writeAbout: "Technology"
   },
   {
-    id: 1,
+    id: 7,
     name: "Moeez Rashid",
     username: "moeezrashid",
     avatar: "https://ui-avatars.com/api/?name=Moeez+Rashid&background=0D8ABC&color=fff",
@@ -2972,7 +2985,7 @@ export const writers = [
     
   },
   {
-    id: 2,
+    id: 8,
     name: "Sara Khan",
     username: "sarakhan",
     avatar: "https://ui-avatars.com/api/?name=Sara+Khan&background=FF5733&color=fff",
@@ -2980,7 +2993,7 @@ export const writers = [
     writeAbout: "Lifestyle"
   },
   {
-    id: 3,
+    id: 9,
     name: "Ali Ahmed",
     username: "aliahmed",
     avatar: "https://ui-avatars.com/api/?name=Ali+Ahmed&background=28A745&color=fff",
@@ -2988,7 +3001,7 @@ export const writers = [
     writeAbout: "Technology"
   },
   {
-    id: 1,
+    id: 10,
     name: "Moeez Rashid",
     username: "moeezrashid",
     avatar: "https://ui-avatars.com/api/?name=Moeez+Rashid&background=0D8ABC&color=fff",
@@ -2997,7 +3010,7 @@ export const writers = [
     
   },
   {
-    id: 2,
+    id: 11,
     name: "Sara Khan",
     username: "sarakhan",
     avatar: "https://ui-avatars.com/api/?name=Sara+Khan&background=FF5733&color=fff",
@@ -3005,7 +3018,15 @@ export const writers = [
     writeAbout: "Lifestyle"
   },
   {
-    id: 3,
+    id: 12,
+    name: "Ali Ahmed",
+    username: "aliahmed",
+    avatar: "https://ui-avatars.com/api/?name=Ali+Ahmed&background=28A745&color=fff",
+    bio: "Tech enthusiast 💻 | Loves AI, coding, and problem-solving",
+    writeAbout: "Technology"
+  },
+  {
+    id: 13,
     name: "Ali Ahmed",
     username: "aliahmed",
     avatar: "https://ui-avatars.com/api/?name=Ali+Ahmed&background=28A745&color=fff",
